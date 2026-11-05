@@ -1,6 +1,6 @@
 # Hermes Coding Pipeline — 21bao Role Souls
 
-**版本：1.1.1 | 用途：21bao 本地角色定义与轻量 CLI 部署 | 原始 P1 源码基准：`38c76de3f7e8b47951b01d430806fffe10fe1cdc`**
+**版本：1.1.2 | 用途：21bao 本地角色定义与轻量 CLI 部署 | 原始 P1 源码基准：`38c76de3f7e8b47951b01d430806fffe10fe1cdc`**
 
 本仓库只存放 **9 个21bao本地角色的完整 Soul**、统一输入输出约定和简单部署文件。目标仓库已由用户建立：`k176060444-lgtm/Hermes-Coding-Role-Souls`（目前为 Public；本角色包不含密钥）。它不是 Hermes 或 P1 引擎的替代实现。
 
@@ -27,6 +27,11 @@
 - 所有权限为 Soul 中声明的**软约束**，不声称已经建立 OS 强制隔离；遵守原有 CLI 安全默认值，禁止用高权限开关绕过安全机制。
 - 本次本地 Agent 的模型为 **gpt-terra**，仅是部署执行者模型，**不是9个角色的固定模型配置**。各角色模型仍需来自未来获批准的 Matrix，不在本仓库预设或修改。
 - Harness 版本可能升级：本次只固化与版本无关的 Soul 定义，记录部署时的 `codex --version` / `opencode --version`，**不更新、不替换正在使用的二进制**。在途任务版本固定和 CLI 兼容验收由后续调用方处理。
+
+## 1.1.2 修订
+
+- Codex 辅助脚本使用 UTF-8 BOM 兼容 Windows PowerShell 5.1；Soul 与 Task 通过严格 UTF-8 解码，有 BOM 与无 BOM 均支持，非法字节会报错。
+- `-PreviewPrompt -TaskFile <输入文件> -PromptOutputFile <新文件>` 在不调用模型的情况下组装并回读校验完整 Prompt；输出文件为无 BOM UTF-8，禁止覆盖已有文件。`-PreviewPrompt` 与 `-Execute` 互斥。
 
 ## 1.1.1 修订
 
