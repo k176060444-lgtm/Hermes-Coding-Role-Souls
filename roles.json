@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "package_version": "1.1.0",
+  "p1_source_repository": "k176060444-lgtm/hermes-agent",
+  "p1_source_commit_sha": "38c76de3f7e8b47951b01d430806fffe10fe1cdc",
+  "execution_host": "21bao",
+  "deployer_model": "gpt-terra",
+  "runtime_role_models": "NOT_ASSIGNED_BY_THIS_PACKAGE",
+  "external_blind_roles_excluded": [
+    "blind_a",
+    "blind_b",
+    "blind_c"
+  ],
+  "roles": {
+    "planner": {
+      "harness": "codex",
+      "phase": "0.2",
+      "permission_intent": "read_only",
+      "installed_name": "p1-planner",
+      "soul_file": "souls/planner.md"
+    },
+    "worker": {
+      "harness": "opencode",
+      "phase": "2",
+      "permission_intent": "workspace_write",
+      "installed_name": "p1-worker",
+      "soul_file": "souls/worker.md"
+    },
+    "spec_reviewer": {
+      "harness": "opencode",
+      "phase": "3",
+      "permission_intent": "read_only",
+      "installed_name": "p1-spec-reviewer",
+      "soul_file": "souls/spec_reviewer.md"
+    },
+    "quality_reviewer": {
+      "harness": "codex",
+      "phase": "4",
+      "permission_intent": "read_only",
+      "installed_name": "p1-quality-reviewer",
+      "soul_file": "souls/quality_reviewer.md"
+    },
+    "tester_gate_a": {
+      "harness": "codex",
+      "phase": "4.5",
+      "permission_intent": "test_files_only",
+      "installed_name": "p1-tester-gate-a",
+      "soul_file": "souls/tester_gate_a.md"
+    },
+    "worker_remediation": {
+      "harness": "opencode",
+      "phase": "5.1",
+      "permission_intent": "workspace_write",
+      "installed_name": "p1-worker-remediation",
+      "soul_file": "souls/worker_remediation.md"
+    },
+    "tester_gate_b": {
+      "harness": "opencode",
+      "phase": "5.2",
+      "permission_intent": "test_files_only",
+      "installed_name": "p1-tester-gate-b",
+      "soul_file": "souls/tester_gate_b.md"
+    },
+    "arbitrator": {
+      "harness": "codex",
+      "phase": "5.3",
+      "permission_intent": "read_only",
+      "installed_name": "p1-arbitrator",
+      "soul_file": "souls/arbitrator.md"
+    },
+    "pro_audit": {
+      "harness": "opencode",
+      "phase": "every_stage",
+      "permission_intent": "read_only",
+      "installed_name": "p1-pro-audit",
+      "soul_file": "souls/pro_audit.md"
+    }
+  }
+}
