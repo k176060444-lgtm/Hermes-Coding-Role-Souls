@@ -1,0 +1,43 @@
+{
+  "run_id": "stage21f-r3-p1-spec-reviewer-001",
+  "process_exit": 0,
+  "role_session": [
+    "ses_e5246bea6ffe6bnEHnWBcOImoQ"
+  ],
+  "requested_model": "magpie/group/deepseek-v4.1-flash",
+  "observed_model": "UNVERIFIED",
+  "soul_sha256": "5226a65f2dafd4a5d69da70ea1d9813581ac324db3aea009432a06cc9bf4ff4d",
+  "spec_sha256": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+  "expected_commit": null,
+  "git_present": false,
+  "before_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "80fca634f946f0df273c936959ea05bb562f967cfc84f9d4ff73cea433c0ffe0",
+    ".input/AUTHORIZATION.md": "b73d594e84a5eb7c585ce06e71c65eb8b9e3359bd127baaad697c77ba81b3775",
+    ".input/SOUL.md": "5226a65f2dafd4a5d69da70ea1d9813581ac324db3aea009432a06cc9bf4ff4d",
+    ".input/TASK.md": "872ca373ae7b950ef087a5c1600e0d321907b148eab37dbfed7294788ae0001a"
+  },
+  "after_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "80fca634f946f0df273c936959ea05bb562f967cfc84f9d4ff73cea433c0ffe0",
+    ".input/AUTHORIZATION.md": "b73d594e84a5eb7c585ce06e71c65eb8b9e3359bd127baaad697c77ba81b3775",
+    ".input/SOUL.md": "5226a65f2dafd4a5d69da70ea1d9813581ac324db3aea009432a06cc9bf4ff4d",
+    ".input/TASK.md": "872ca373ae7b950ef087a5c1600e0d321907b148eab37dbfed7294788ae0001a",
+    "_reports/SPEC_REVIEW_REPORT.md": "1da29c150d5a336ad1390f0516211dc5058f0aed8d21e05a982b95591eac6ee9"
+  },
+  "added": [
+    "_reports/SPEC_REVIEW_REPORT.md"
+  ],
+  "removed": [],
+  "changed": [],
+  "reports": [
+    "_reports/SPEC_REVIEW_REPORT.md"
+  ],
+  "role_stdout_sha256": "857fbf76af63c6da73837c17d5ff505cc942270f36b73748ff59e3687f65c609",
+  "role_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "pre_sha256": "684f8ce38ad5f6a36341ce8317b4ed87d5774ef126f9cdbc755737407d8c79da",
+  "raw_evidence": "role.stdout, role.stderr, pre.jsonl in this directory; originals retained outside audit",
+  "event_count": 12
+}

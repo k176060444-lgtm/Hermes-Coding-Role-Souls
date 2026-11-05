@@ -1,0 +1,19 @@
+{
+  "run_id": "stage21f-r3-p1-spec-reviewer-001",
+  "task_id": "STAGE21F-R3-SPEC",
+  "phase": "3",
+  "role": "p1-spec-reviewer",
+  "soul_sha256": "5226a65f2dafd4a5d69da70ea1d9813581ac324db3aea009432a06cc9bf4ff4d",
+  "spec_sha256": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+  "commit": null,
+  "requested_model": "magpie/group/deepseek-v4.1-flash",
+  "baseline_files": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "80fca634f946f0df273c936959ea05bb562f967cfc84f9d4ff73cea433c0ffe0",
+    ".input/AUTHORIZATION.md": "b73d594e84a5eb7c585ce06e71c65eb8b9e3359bd127baaad697c77ba81b3775",
+    ".input/SOUL.md": "5226a65f2dafd4a5d69da70ea1d9813581ac324db3aea009432a06cc9bf4ff4d",
+    ".input/TASK.md": "872ca373ae7b950ef087a5c1600e0d321907b148eab37dbfed7294788ae0001a"
+  },
+  "production_gate": "NOT_APPROVED"
+}

@@ -1,0 +1,1 @@
+用户原文：OpenCode“沿用已批准的当前模型配置。不得临时换模型”。用户 21F-R3 明确授权当前 OpenCode 配置和 p1-spec-reviewer，限定各一次 PRE/角色/POST，且仅21F通过才可21G。只读核查当前 OpenCode config.json 模型 magpie/group/deepseek-v4.1-flash，配置 SHA256 65bc7174c17105edfa6be724879ba579a44a2362ba09d18cb10bf8f9b78ff936。模型请求值不证明服务端身份，observed_model UNVERIFIED。

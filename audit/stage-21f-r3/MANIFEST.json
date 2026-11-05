@@ -1,0 +1,152 @@
+{
+  "description": "Raw CLI originals stay local. Published files are redacted derivatives; audit final texts extracted verbatim except privacy redaction. Original SHA256 permits local comparison.",
+  "files": [
+    {
+      "file": "raw/spec/pre.jsonl",
+      "source_sha256": "684f8ce38ad5f6a36341ce8317b4ed87d5774ef126f9cdbc755737407d8c79da",
+      "published_sha256": "cb9cc4944f3725d5f15758b73c2f3cbda0592202f4f5685c292721f08bedceae",
+      "source_bytes": 43756,
+      "published_bytes": 43905,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/spec/pre-final.md",
+      "source_sha256": "772fe6cb4ef4505f756d0b16d6f1f255d0c45f95adb939bb91bd9fdcf8c27673",
+      "published_sha256": "1d13174d828429666355226d27787f7ae456fc5f712910e41d841ad9392be909",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/spec/post.jsonl",
+      "source_sha256": "1515158dc0c2f7deded30f7384f050d55171d0a185f5a39e1aa4759db54827a2",
+      "published_sha256": "de3e9e5921b515b20188f331299f2f91c693d98726709c5595a5f4876ecc4d0a",
+      "source_bytes": 180011,
+      "published_bytes": 179653,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/spec/post-final.md",
+      "source_sha256": "e45ed0c150dfae50f75e9608f5d5491ce8f32b0acc36e50af5a7c64163bb853c",
+      "published_sha256": "773c58cbdd9c813ec57b73655b6a518d6013d64300e52d1776bc324e52cb580c",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/spec/role.stdout.txt",
+      "source_sha256": "857fbf76af63c6da73837c17d5ff505cc942270f36b73748ff59e3687f65c609",
+      "published_sha256": "bf2423efd83ff84a8bda704c26f0b3649153c529811d4bc823a66528faf0aab9",
+      "source_bytes": 46196,
+      "published_bytes": 46293,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/spec/role.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "published_bytes": 0,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/spec/TASK.md",
+      "source_sha256": "872ca373ae7b950ef087a5c1600e0d321907b148eab37dbfed7294788ae0001a",
+      "published_sha256": "872ca373ae7b950ef087a5c1600e0d321907b148eab37dbfed7294788ae0001a",
+      "source_bytes": 1346,
+      "published_bytes": 1346,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/spec/AUTHORIZATION.md",
+      "source_sha256": "b73d594e84a5eb7c585ce06e71c65eb8b9e3359bd127baaad697c77ba81b3775",
+      "published_sha256": "b73d594e84a5eb7c585ce06e71c65eb8b9e3359bd127baaad697c77ba81b3775",
+      "source_bytes": 458,
+      "published_bytes": 458,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/spec/reports/SPEC_REVIEW_REPORT.md",
+      "source_sha256": "1da29c150d5a336ad1390f0516211dc5058f0aed8d21e05a982b95591eac6ee9",
+      "published_sha256": "f1b75706d2545891b7727c0f6539f14022f28346de1684f71740e431fe83151b",
+      "source_bytes": 8305,
+      "published_bytes": 8305,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/spec/META.json",
+      "source_sha256": "aa90893b206606f35a2de99c649fd88cac12d2b7c580f8822424cbc39f06a462",
+      "published_sha256": "aa90893b206606f35a2de99c649fd88cac12d2b7c580f8822424cbc39f06a462",
+      "source_bytes": 2227,
+      "published_bytes": 2227,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/spec/COMMANDS.json",
+      "source_sha256": "f4c1973becb61c898cf956a8ddac5f06de196c33721f88d39655237169c79492",
+      "published_sha256": "6d982ca7cab052e96d884e5624e581c54a53d64350b3f1a9b4dff4ed8b19de6d",
+      "source_bytes": 3560,
+      "published_bytes": 3546,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/spec/SUMMARY.md",
+      "source_sha256": "8f64766c3a8c2cea076c0ef14fb779f80317cda120a2fa0cb7bca7309bb1ba80",
+      "published_sha256": "8f64766c3a8c2cea076c0ef14fb779f80317cda120a2fa0cb7bca7309bb1ba80",
+      "source_bytes": 1279,
+      "published_bytes": 1279,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/spec/PROMPT.txt",
+      "source_sha256": "9dfa5acbc4e534c70da02b959c26d7ff2a344b7a94c00d39af90726e2d097886",
+      "published_sha256": "9dfa5acbc4e534c70da02b959c26d7ff2a344b7a94c00d39af90726e2d097886",
+      "source_bytes": 899,
+      "published_bytes": 899,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/spec/PRE_PROMPT.txt",
+      "source_sha256": "3cdb863a53c27e1ac2791e931494f1b4a0afb73c8c59659b494258cc01c34a92",
+      "published_sha256": "3cdb863a53c27e1ac2791e931494f1b4a0afb73c8c59659b494258cc01c34a92",
+      "source_bytes": 619,
+      "published_bytes": 619,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/spec/BASELINE.json",
+      "source_sha256": "bc167883dd39035f9d405a7764d08479a55e004194b43b0ac9a25884241f7b25",
+      "published_sha256": "bc167883dd39035f9d405a7764d08479a55e004194b43b0ac9a25884241f7b25",
+      "source_bytes": 979,
+      "published_bytes": 979,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/protected-after.json",
+      "source_sha256": "2ba5a3028d8e00642ab0f03ecf77a41a0ad37dc31105ffa61a441bb63dcc889d",
+      "published_sha256": "8da7130f3703ae4834f8475bf9f7c5a2463663787537f1e46051a4ce930c47b4",
+      "source_bytes": 3006,
+      "published_bytes": 2939,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "21F-r3-report.md",
+      "published_sha256": "96a5f26809b42c61aac327d0364a8594e36db10e09c7a301292e547fc61e2011",
+      "published_bytes": 6192,
+      "processing": "scheduler-authored report"
+    },
+    {
+      "file": "21G-report.md",
+      "published_sha256": "85fb027a8a807269fbabcdea4fd1a114662f13624bab5fd59e5a0bd619c5e00a",
+      "published_bytes": 1723,
+      "processing": "scheduler-authored report"
+    }
+  ],
+  "file_count": 18,
+  "redaction_counts_by_pattern_index": {
+    "0": 199,
+    "1": 169,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "scan": "No residual private home prefix, IPv4, recognized token or bearer pattern found; not a guarantee against unknown secret formats."
+}
