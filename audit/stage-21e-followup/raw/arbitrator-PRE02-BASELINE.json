@@ -1,0 +1,22 @@
+{
+  "attempt": "PRE-02",
+  "run_id": "stage21e-arbitrator-001",
+  "role": "arbitrator",
+  "head": "f987166becaff6e60e254694fd82ba064e001953",
+  "spec_sha256": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+  "soul_sha256": "741f9388bdaf972bbffbdfdce41bb7e0f0a397b84b850cc16a9bbaed77f17f7f",
+  "task_sha256": "dbc2f851bbd192521b4f3d3856639091b2e6ccc3bde2276622a6811050b6cbe7",
+  "original_and_clone_tracked_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde"
+  },
+  "approved_role_harness": "Codex",
+  "requested_role_model": "group/gpt-6-luna",
+  "audit_harness": "OpenCode p1-pro-audit",
+  "requested_audit_model": "magpie/group/deepseek-v4.1-flash",
+  "role_sandbox": "danger-full-access",
+  "previous_pre": "PRE-01 had no final conclusion following external_directory auto-rejection; not passed",
+  "production_approval": "UNVERIFIED: this is authorized synthetic testing only",
+  "evidence_provenance": "TASK.md and SOUL.md are byte-identical copies of actual dispatched input and installed Soul; tracked source files match original synthetic repository SHA256; verified locally."
+}

@@ -1,0 +1,12 @@
+{
+  "run_id": "stage21e-quality_reviewer-001",
+  "session_id": "ses_e54420621ffeZQ3RzfyYz0nlEJ",
+  "process_session": "proc_df9015dd2c39",
+  "exit_code": 0,
+  "event_count": 28,
+  "last_event_type": "step_finish",
+  "last_step_reason": "tool-calls",
+  "raw_jsonl_sha256": "3fdbe910b0444ed51e42ea0983bbb069399ac9b901c214c24fc07417552d05e8",
+  "stderr_sha256": "f902bebdb7f826817f679ead5f8fe77dc74c2a92841c3395b86576fb267764ec",
+  "final_audit_conclusion": "NOT_OBSERVED"
+}

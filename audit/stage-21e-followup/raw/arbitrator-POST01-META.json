@@ -1,0 +1,59 @@
+{
+  "run_id": "stage21e-arbitrator-001",
+  "post_attempt": "POST-01",
+  "role": "arbitrator",
+  "created": "2026-11-05T21:09:35.051149+08:00",
+  "cli_exit_code": 0,
+  "thread_ids": [
+    "01a1abcf-e7d7-7253-890e-02671ab750b2"
+  ],
+  "requested_model": "group/gpt-6-luna",
+  "observed_model": "UNVERIFIED",
+  "sandbox_mode": "danger-full-access",
+  "helper_sha256": "fa7ed710027fbeb3065d7c47550691e27ae9e86726cf8889fd4f209ce400db77",
+  "soul_sha256": "741f9388bdaf972bbffbdfdce41bb7e0f0a397b84b850cc16a9bbaed77f17f7f",
+  "task_sha256": "dbc2f851bbd192521b4f3d3856639091b2e6ccc3bde2276622a6811050b6cbe7",
+  "pre_expected_commit": "f987166becaff6e60e254694fd82ba064e001953",
+  "post_head": "f987166becaff6e60e254694fd82ba064e001953",
+  "pre_files_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde"
+  },
+  "post_files_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde"
+  },
+  "added": [],
+  "removed": [],
+  "changed": [],
+  "git_status": "",
+  "git_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "role_stdout_sha256": "e1b61a77d3f93e62f5a85a2ef27d878b1a7ecb2e50140dc6477971103fd35a6e",
+  "role_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "pre02_sha256": "ced73571c0147f960050b22557fee71fbfa7e0a515e532e059ffafeea64d9933",
+  "command_argv": [
+    "powershell.exe",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "C:/Users/KK/.codex/p1-roles/Invoke-P1CodexRole.ps1",
+    "-Role",
+    "arbitrator",
+    "-Model",
+    "group/gpt-6-luna",
+    "-WorkDir",
+    "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\arbitrator\\project",
+    "-TaskFile",
+    "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\dispatch\\arbitrator\\TASK.md",
+    "-CodexExe",
+    "D:/codex/codex-agent.exe",
+    "-ProxyUrl",
+    "http://127.0.0.1:18888",
+    "-SandboxMode",
+    "danger-full-access",
+    "-Execute"
+  ]
+}

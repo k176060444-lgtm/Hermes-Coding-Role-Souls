@@ -1,0 +1,235 @@
+{
+  "description": "Unaltered raw CLI events and actual audit inputs; original local source paths and byte hashes",
+  "files": {
+    "quality-pre.jsonl": {
+      "bytes": 93579,
+      "sha256": "3fdbe910b0444ed51e42ea0983bbb069399ac9b901c214c24fc07417552d05e8",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality-pre.jsonl"
+    },
+    "quality-pre.stderr": {
+      "bytes": 142,
+      "sha256": "f902bebdb7f826817f679ead5f8fe77dc74c2a92841c3395b86576fb267764ec",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality-pre.stderr"
+    },
+    "quality-pre02.jsonl": {
+      "bytes": 65318,
+      "sha256": "a3ec5ca76db5d30fe27ba7f14f169055ca0479acf91de807382f8286dcde1bd9",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality-pre02.jsonl"
+    },
+    "quality-pre02.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality-pre02.stderr"
+    },
+    "tester-pre.jsonl": {
+      "bytes": 61866,
+      "sha256": "311696d5fde66b03136bfcb3b08747f8a9f63874aee6dddda34fe0a76e001fc3",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\tester-pre.jsonl"
+    },
+    "tester-pre.stderr": {
+      "bytes": 173,
+      "sha256": "465d7bd211467314f252b3b99c12241558991540d1691847be06acf5e0e98efd",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\tester-pre.stderr"
+    },
+    "tester-pre02.jsonl": {
+      "bytes": 70317,
+      "sha256": "3907531cea2b510d04e471fc4afd65d4473a6af46ae7b205466cb4a24ceeea18",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\tester-pre02.jsonl"
+    },
+    "tester-pre02.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\tester-pre02.stderr"
+    },
+    "arbitrator-pre.jsonl": {
+      "bytes": 48069,
+      "sha256": "f6139ed2177555404ec3fd1880631175b648efc6d56dbf332f6ffeacb285095f",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator-pre.jsonl"
+    },
+    "arbitrator-pre.stderr": {
+      "bytes": 170,
+      "sha256": "8462bd50e14294c1783e38c6bd7640bd236e347fc2708c6a5a02175c2bb2a058",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator-pre.stderr"
+    },
+    "arbitrator-pre02.jsonl": {
+      "bytes": 68593,
+      "sha256": "ced73571c0147f960050b22557fee71fbfa7e0a515e532e059ffafeea64d9933",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator-pre02.jsonl"
+    },
+    "arbitrator-pre02.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator-pre02.stderr"
+    },
+    "quality-post01.jsonl": {
+      "bytes": 176804,
+      "sha256": "7c51f605bbee198b7640812e3061f7ecd6116d3e18cc1c87a791c6146adeba34",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality-post01.jsonl"
+    },
+    "quality-post01.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality-post01.stderr"
+    },
+    "quality-role.stdout": {
+      "bytes": 8997,
+      "sha256": "ffbd9a9f82d3aa592b631248ab41f7424e12bf05a689638f43800580be585b19",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\quality-role.stdout"
+    },
+    "quality-role.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\quality-role.stderr"
+    },
+    "arbitrator-post01.jsonl": {
+      "bytes": 206176,
+      "sha256": "d3455155a013d7717b098641baf4bfce46a079500439f8195439e24fd6166cc2",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator-post01.jsonl"
+    },
+    "arbitrator-post01.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator-post01.stderr"
+    },
+    "arbitrator-role.stdout": {
+      "bytes": 16009,
+      "sha256": "e1b61a77d3f93e62f5a85a2ef27d878b1a7ecb2e50140dc6477971103fd35a6e",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\arbitrator-role.stdout"
+    },
+    "arbitrator-role.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\arbitrator-role.stderr"
+    },
+    "quality_reviewer-PRE02-TASK.md": {
+      "bytes": 1159,
+      "sha256": "91c361bfc29fa03b77a9d6b8d5f1a471a4ed93304722b3243ed314ecb399403a",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality_reviewer\\pre-followup\\project\\.audit-pre-02\\TASK.md"
+    },
+    "quality_reviewer-PRE02-SOUL.md": {
+      "bytes": 4782,
+      "sha256": "de7da8db6e94d862f5b83f9e4dd69f759bd2a3927c6853b062f0a64b44fd5207",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality_reviewer\\pre-followup\\project\\.audit-pre-02\\SOUL.md"
+    },
+    "quality_reviewer-PRE02-BASELINE.json": {
+      "bytes": 1427,
+      "sha256": "98288933aef8caf221dae67c6da589813dcbcf616c3444486f298708b6bd023f",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality_reviewer\\pre-followup\\project\\.audit-pre-02\\BASELINE.json"
+    },
+    "quality_reviewer-PRE02-AUTHORIZATION.txt": {
+      "bytes": 351,
+      "sha256": "4423378ecb20a5ca1419aa0d503e7a3348cc1263663154f5a080e8ad464edb34",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality_reviewer\\pre-followup\\project\\.audit-pre-02\\AUTHORIZATION.txt"
+    },
+    "quality_reviewer-PRE02-PRE-01.json": {
+      "bytes": 472,
+      "sha256": "033c2aefdfca056272905099bf7e78306b2d021d4040fe9554a0173327502e61",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality_reviewer\\pre-followup\\project\\.audit-pre-02\\PRE-01.json"
+    },
+    "quality_reviewer-PRE02-PROMPT.txt": {
+      "bytes": 1422,
+      "sha256": "3ae808c5d19576a893b3b767f63f9d420f1d3540eac2b7e646fa4b0c5742a155",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality_reviewer\\pre-followup\\project\\.audit-pre-02\\PROMPT.txt"
+    },
+    "quality_reviewer-POST01-META.json": {
+      "bytes": 2600,
+      "sha256": "b5400b026330629b45fe6c31707f00c4fcfd6d1ba3029fcf0bb6957350263e63",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality_reviewer\\pre-followup\\project\\.audit-post-01\\META.json"
+    },
+    "quality_reviewer-POST01-GIT-DIFF.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality_reviewer\\pre-followup\\project\\.audit-post-01\\GIT-DIFF.txt"
+    },
+    "quality_reviewer-POST01-ROLE-FINAL-VERBATIM.md": {
+      "bytes": 2128,
+      "sha256": "265248b3bf4c6765187eb9a5372ab4d0e3004c2388ca2811c314668ad2fce953",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality_reviewer\\pre-followup\\project\\.audit-post-01\\ROLE-FINAL-VERBATIM.md"
+    },
+    "quality_reviewer-POST01-PROMPT.txt": {
+      "bytes": 1466,
+      "sha256": "dc3636be2ef34840da91840f665886d1aa4ea6b272f40b476cc68250211b68f8",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality_reviewer\\pre-followup\\project\\.audit-post-01\\PROMPT.txt"
+    },
+    "tester_gate_a-PRE02-TASK.md": {
+      "bytes": 1372,
+      "sha256": "5db6a8fdeb0ce603d6e694198ac19ed4f8d00338e7e2135b74613fbb34f0b1fb",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\tester_gate_a\\pre-followup\\project\\.audit-pre-02\\TASK.md"
+    },
+    "tester_gate_a-PRE02-SOUL.md": {
+      "bytes": 4616,
+      "sha256": "e2530a2b5c8ca0cb679c96777cb9b83db7e0edb7a0e6f8fcb64bea191094e98a",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\tester_gate_a\\pre-followup\\project\\.audit-pre-02\\SOUL.md"
+    },
+    "tester_gate_a-PRE02-BASELINE.json": {
+      "bytes": 1334,
+      "sha256": "54210cbdf1ce6ca5328e529284b364010c7356989ffae610d14fdc5224644dd5",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\tester_gate_a\\pre-followup\\project\\.audit-pre-02\\BASELINE.json"
+    },
+    "tester_gate_a-PRE02-AUTHORIZATION.txt": {
+      "bytes": 351,
+      "sha256": "4423378ecb20a5ca1419aa0d503e7a3348cc1263663154f5a080e8ad464edb34",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\tester_gate_a\\pre-followup\\project\\.audit-pre-02\\AUTHORIZATION.txt"
+    },
+    "tester_gate_a-PRE02-PRE-01.json": {
+      "bytes": 469,
+      "sha256": "4320f564296823c3304366bce89a5d58337d71c7f7322cf41574b83269cc2f68",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\tester_gate_a\\pre-followup\\project\\.audit-pre-02\\PRE-01.json"
+    },
+    "tester_gate_a-PRE02-PROMPT.txt": {
+      "bytes": 1419,
+      "sha256": "aa387019b70b602815dd7fea0c62f8746ca4eacdfcb6b34b2af4152621d9b934",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\tester_gate_a\\pre-followup\\project\\.audit-pre-02\\PROMPT.txt"
+    },
+    "arbitrator-PRE02-TASK.md": {
+      "bytes": 1343,
+      "sha256": "dbc2f851bbd192521b4f3d3856639091b2e6ccc3bde2276622a6811050b6cbe7",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator\\pre-followup\\project\\.audit-pre-02\\TASK.md"
+    },
+    "arbitrator-PRE02-SOUL.md": {
+      "bytes": 4975,
+      "sha256": "741f9388bdaf972bbffbdfdce41bb7e0f0a397b84b850cc16a9bbaed77f17f7f",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator\\pre-followup\\project\\.audit-pre-02\\SOUL.md"
+    },
+    "arbitrator-PRE02-BASELINE.json": {
+      "bytes": 1328,
+      "sha256": "c95aaccf45ccf0cb49934e5e1f1e2d2a089b2fbb69dde39d7c7f4e30811ef64e",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator\\pre-followup\\project\\.audit-pre-02\\BASELINE.json"
+    },
+    "arbitrator-PRE02-AUTHORIZATION.txt": {
+      "bytes": 351,
+      "sha256": "4423378ecb20a5ca1419aa0d503e7a3348cc1263663154f5a080e8ad464edb34",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator\\pre-followup\\project\\.audit-pre-02\\AUTHORIZATION.txt"
+    },
+    "arbitrator-PRE02-PRE-01.json": {
+      "bytes": 466,
+      "sha256": "654845da24b0c9c7a4a68b6327926d414ab876095bfc615bc9fd9dc6ff6f58f0",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator\\pre-followup\\project\\.audit-pre-02\\PRE-01.json"
+    },
+    "arbitrator-PRE02-PROMPT.txt": {
+      "bytes": 1416,
+      "sha256": "61b13a5927dad8e6a75ad5a293eb6396282ce616677241090b9c0af4c6e7e82a",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator\\pre-followup\\project\\.audit-pre-02\\PROMPT.txt"
+    },
+    "arbitrator-POST01-META.json": {
+      "bytes": 2396,
+      "sha256": "4b5d9fa2ed72e3dc468386a2711edff9271bc2c3ec86385c142c9de9482b4ebb",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator\\pre-followup\\project\\.audit-post-01\\META.json"
+    },
+    "arbitrator-POST01-GIT-DIFF.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator\\pre-followup\\project\\.audit-post-01\\GIT-DIFF.txt"
+    },
+    "arbitrator-POST01-ROLE-FINAL-VERBATIM.md": {
+      "bytes": 3266,
+      "sha256": "6efffe15657d917192a9d785b8c81c2881c16d30954f1df1e0feb3c70f8b4ca3",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator\\pre-followup\\project\\.audit-post-01\\ROLE-FINAL-VERBATIM.md"
+    },
+    "arbitrator-POST01-PROMPT.txt": {
+      "bytes": 1702,
+      "sha256": "bf69e7e35ca671ace8a4e0a68832cd8a0ab9253c10a9ddc9835c452000bae30e",
+      "source": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator\\pre-followup\\project\\.audit-post-01\\PROMPT.txt"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "run_id": "stage21e-arbitrator-001",
+  "session_id": "ses_e544204d7ffevGcMH8E7a9COJh",
+  "process_session": "proc_95857e3b0337",
+  "exit_code": 0,
+  "event_count": 22,
+  "last_event_type": "step_finish",
+  "last_step_reason": "tool-calls",
+  "raw_jsonl_sha256": "f6139ed2177555404ec3fd1880631175b648efc6d56dbf332f6ffeacb285095f",
+  "stderr_sha256": "8462bd50e14294c1783e38c6bd7640bd236e347fc2708c6a5a02175c2bb2a058",
+  "final_audit_conclusion": "NOT_OBSERVED"
+}

@@ -1,0 +1,3 @@
+你是已配置的 p1-pro-audit。只做本角色合成验证的 PRE 审计，run_id=stage21e-tester_gate_a-001，audit_attempt=PRE-02。你的工作目录是对应的 Git 审计副本根目录。所有必需资料均在当前目录及 .audit-pre-02/ 中；禁止访问工作目录以外的任何路径、查找原始仓库、访问外机或更改任何文件。不要调用会更改文件的命令，不复跑业务测试。
+请直接查看 .audit-pre-02/TASK.md、SOUL.md、BASELINE.json、AUTHORIZATION.txt、PRE-01.json 和 TASK_SPEC.md；适用时查看 .audit-pre-02/UPSTREAM_SYNTHETIC.md 或 CASE_SYNTHETIC.md。直接运行只读 Git 命令核验 HEAD、提交、已追踪源码差异和规格/文件哈希；.audit-pre-02/ 是为审计添加的未跟踪证据目录，不能误认为源码改动。不得把模拟规格/上游资料当成真实生产审批。此前 PRE-01 未给最终结论，本次须保留其历史。
+检查 Soul 职责、Commit、规格 SHA、派发任务、获授权的测试模式和角色模型；对合成测试的适用条件给出明确最终状态 PRE: COMPLIANT、PRE: NON_COMPLIANT 或 PRE: UNVERIFIED，并陈述关键证据与任何阻断原因。PRE: COMPLIANT 只表示允许合成角色测试，不表示生产放行。证据不足不得猜测或声称通过。最终报告必须输出到对话，至少含 run_id、attempt、结论、证据、问题；不写任何文件。

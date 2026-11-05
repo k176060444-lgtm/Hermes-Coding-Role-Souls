@@ -1,0 +1,12 @@
+{
+  "run_id": "stage21e-tester_gate_a-001",
+  "session_id": "ses_e544205cfffeRBy7nmZ07uqNMp",
+  "process_session": "proc_67d9c0bda22c",
+  "exit_code": 0,
+  "event_count": 25,
+  "last_event_type": "step_finish",
+  "last_step_reason": "tool-calls",
+  "raw_jsonl_sha256": "311696d5fde66b03136bfcb3b08747f8a9f63874aee6dddda34fe0a76e001fc3",
+  "stderr_sha256": "465d7bd211467314f252b3b99c12241558991540d1691847be06acf5e0e98efd",
+  "final_audit_conclusion": "NOT_OBSERVED"
+}

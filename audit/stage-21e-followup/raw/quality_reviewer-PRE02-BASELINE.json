@@ -1,0 +1,23 @@
+{
+  "attempt": "PRE-02",
+  "run_id": "stage21e-quality_reviewer-001",
+  "role": "quality_reviewer",
+  "head": "df21d132ab75c8560c12531b1cf2a6e1aa8a5d39",
+  "spec_sha256": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+  "soul_sha256": "de7da8db6e94d862f5b83f9e4dd69f759bd2a3927c6853b062f0a64b44fd5207",
+  "task_sha256": "91c361bfc29fa03b77a9d6b8d5f1a471a4ed93304722b3243ed314ecb399403a",
+  "original_and_clone_tracked_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "defect.diff": "53e2b8469905a97d6c98af436db4f11bc0794ee53f9d9048aab39002f10795d7",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde"
+  },
+  "approved_role_harness": "Codex",
+  "requested_role_model": "group/gpt-6-luna",
+  "audit_harness": "OpenCode p1-pro-audit",
+  "requested_audit_model": "magpie/group/deepseek-v4.1-flash",
+  "role_sandbox": "danger-full-access",
+  "previous_pre": "PRE-01 had no final conclusion following external_directory auto-rejection; not passed",
+  "production_approval": "UNVERIFIED: this is authorized synthetic testing only",
+  "evidence_provenance": "TASK.md and SOUL.md are byte-identical copies of actual dispatched input and installed Soul; tracked source files match original synthetic repository SHA256; verified locally."
+}

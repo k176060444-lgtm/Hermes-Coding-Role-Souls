@@ -1,0 +1,61 @@
+{
+  "run_id": "stage21e-quality_reviewer-001",
+  "post_attempt": "POST-01",
+  "role": "quality_reviewer",
+  "created": "2026-11-05T21:07:07.497722+08:00",
+  "cli_exit_code": 0,
+  "thread_ids": [
+    "01a1abcf-4137-7fe3-a576-223317d7af62"
+  ],
+  "requested_model": "group/gpt-6-luna",
+  "observed_model": "UNVERIFIED",
+  "sandbox_mode": "danger-full-access",
+  "helper_sha256": "fa7ed710027fbeb3065d7c47550691e27ae9e86726cf8889fd4f209ce400db77",
+  "soul_sha256": "de7da8db6e94d862f5b83f9e4dd69f759bd2a3927c6853b062f0a64b44fd5207",
+  "task_sha256": "91c361bfc29fa03b77a9d6b8d5f1a471a4ed93304722b3243ed314ecb399403a",
+  "pre_expected_commit": "df21d132ab75c8560c12531b1cf2a6e1aa8a5d39",
+  "post_head": "df21d132ab75c8560c12531b1cf2a6e1aa8a5d39",
+  "pre_files_sha256": {
+    "defect.diff": "53e2b8469905a97d6c98af436db4f11bc0794ee53f9d9048aab39002f10795d7",
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde"
+  },
+  "post_files_sha256": {
+    "defect.diff": "53e2b8469905a97d6c98af436db4f11bc0794ee53f9d9048aab39002f10795d7",
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde"
+  },
+  "added": [],
+  "removed": [],
+  "changed": [],
+  "git_status": "",
+  "git_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "role_stdout_sha256": "ffbd9a9f82d3aa592b631248ab41f7424e12bf05a689638f43800580be585b19",
+  "role_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "pre02_sha256": "a3ec5ca76db5d30fe27ba7f14f169055ca0479acf91de807382f8286dcde1bd9",
+  "command_argv": [
+    "powershell.exe",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "C:/Users/KK/.codex/p1-roles/Invoke-P1CodexRole.ps1",
+    "-Role",
+    "quality_reviewer",
+    "-Model",
+    "group/gpt-6-luna",
+    "-WorkDir",
+    "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\quality_reviewer\\project",
+    "-TaskFile",
+    "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\dispatch\\quality_reviewer\\TASK.md",
+    "-CodexExe",
+    "D:/codex/codex-agent.exe",
+    "-ProxyUrl",
+    "http://127.0.0.1:18888",
+    "-SandboxMode",
+    "danger-full-access",
+    "-Execute"
+  ]
+}
