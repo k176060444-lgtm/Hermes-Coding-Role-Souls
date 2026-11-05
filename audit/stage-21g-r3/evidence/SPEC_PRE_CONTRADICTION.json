@@ -1,0 +1,13 @@
+{
+  "audit_run_id": "stage21g-r3-spec-reviewer-001",
+  "original_verdict": "PRE: COMPLIANT",
+  "scheduler_verdict": "FAIL — factual contradiction, not valid PRE",
+  "source_audit_raw_sha256": "791ab395b6c44aa166699f78ad65b381e0a743caa9306aa535faafc80f878990",
+  "source_meta_raw_sha256": "0ddea57fdc7cc54c48b72ff2f77f72f3cdbb31d981592151ec9ebddff40e0a63",
+  "auditor_observation_original": "3. `.audit/worker-r3/post/META.json` 的 `before_sha256` 映射中 `.audit/worker-r3/post/pre.jsonl` 记为 `778ae2dc…`（实为 planner-pre.jsonl 的值），而该文件现测为 `cf67004f…`，且与 `META.pre_sha256` 一致。属提交前快照与运行后文件替换的时序差异，不影响 PRE 结论的真实性。",
+  "actual_before_sha256_relevant_entries": {
+    ".audit/planner-r3/post/pre.jsonl": "778ae2dce7335899a0c7910b7d4698f6839aae0db55c6d1a0a6cb295ac80a89e"
+  },
+  "claimed_worker_key_present_in_before": false,
+  "explanation": "审计员混淆了 Planner 和 Worker 路径；before map 实际只有 Planner 路径，Worker 路径不存在。其所谓文件替换时序差异无证据支持。旧模型原判原样保留，调度端不采为有效放行。"
+}

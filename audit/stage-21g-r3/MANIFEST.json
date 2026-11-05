@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "scope": "redacted reports and evidence only; full raw events local",
+  "entries": [
+    {
+      "path": "21G-r3-report.md",
+      "sha256": "3dd71cd7e23569dab3a374eca1dc35fb38f5cd1ee9b42a335ef58d6fe6f1d92d",
+      "bytes": 8323
+    },
+    {
+      "path": "evidence/planner-post-final.md",
+      "sha256": "d38b8f4708f93e79504e698cc4cec1c650e3e739552127f5639d65abaccaba85",
+      "bytes": 6973
+    },
+    {
+      "path": "evidence/planner-pre-final.md",
+      "sha256": "c4a6f661271f0f8612608f796534099a685779f67edc7d6548271b3c4056077f",
+      "bytes": 5879
+    },
+    {
+      "path": "evidence/PLANNER_REPORT.md",
+      "sha256": "cac988e7d060047c86a5b7e89ac978dbe73f30a72538a6854eb3ce629a12d48a",
+      "bytes": 4726
+    },
+    {
+      "path": "evidence/quality-pre-final.md",
+      "sha256": "a174d982b671376b1f67e41ecdf5500af0c6e6e87ed22eee3b8dd2a6141f21e6",
+      "bytes": 14754
+    },
+    {
+      "path": "evidence/RAW_EVENT_INDEX.json",
+      "sha256": "9be0448a8c7b875323ea600f396fbdc4528988f39a4ce01bc1482b89ccf8de70",
+      "bytes": 1915
+    },
+    {
+      "path": "evidence/spec-pre-final.md",
+      "sha256": "333f165d51941eda035c7ff38f3be0c7993ab8ef917eb5b398052faae78e89d0",
+      "bytes": 8486
+    },
+    {
+      "path": "evidence/SPEC_PRE_CONTRADICTION.json",
+      "sha256": "8fb9d2b821243f8dee1ece0f005f6e86f7cb6743c1cb5d28c14047aab4bc26ef",
+      "bytes": 1179
+    },
+    {
+      "path": "evidence/TASK_SPEC.md",
+      "sha256": "dafc4a314bfb69c887929a3df12f6f76dee45d8686902659fc514352afe8258c",
+      "bytes": 5534
+    },
+    {
+      "path": "evidence/TDD_EVIDENCE.md",
+      "sha256": "b0df99a7b728080ce6f2cd93276957a62ba2c8c58bcbb71fc5d674004f3e6d33",
+      "bytes": 7949
+    },
+    {
+      "path": "evidence/TDD_TASKS.md",
+      "sha256": "b687d33b7fec780bad29adc793191c9c8d7149318e1fab05d84415a88a49ab16",
+      "bytes": 3848
+    },
+    {
+      "path": "evidence/TEST_ONLY_FREEZE.md",
+      "sha256": "bb1fe989ef24ff0b6b7a4d202ad24ea6ea01dedfc09e147133f15dde184ce63c",
+      "bytes": 2713
+    },
+    {
+      "path": "evidence/USER_ALIGNMENT.md",
+      "sha256": "3091b5b4917f63d2a6d474cad3ce4b927deb15ebf4579bc9e9536c038acd3d6d",
+      "bytes": 4361
+    },
+    {
+      "path": "evidence/worker-post-final.md",
+      "sha256": "1f9500f46f39886c7fa32809caf66a86eb26ac133bdc6f8b0d0b02dafa3523af",
+      "bytes": 7308
+    },
+    {
+      "path": "evidence/worker-pre-final.md",
+      "sha256": "694a4e2b752ad117dab63cb49ce04994bb59f18793f98b703dff929dcb44175b",
+      "bytes": 5562
+    },
+    {
+      "path": "evidence/WORKER_REPORT.md",
+      "sha256": "e5a0930a9a70b75c84606e64c63b364e381cdd3363bb54228274f6f9b5d7d6e5",
+      "bytes": 9007
+    }
+  ],
+  "original_event_index": "evidence/RAW_EVENT_INDEX.json",
+  "self_hash": "excluded"
+}
