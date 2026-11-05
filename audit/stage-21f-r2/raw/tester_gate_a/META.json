@@ -1,0 +1,54 @@
+{
+  "run_id": "stage21f-r2-tester_gate_a-001",
+  "role": "tester_gate_a",
+  "process_exit": 0,
+  "thread_or_session_ids": [
+    "01a1ac29-b0fd-7eb2-bc73-baea8870d3e3"
+  ],
+  "expected_commit": "4e5a8073e1ea9203f7f66f0eeee6ae61e3a935bf",
+  "post_HEAD": "4e5a8073e1ea9203f7f66f0eeee6ae61e3a935bf",
+  "status": "?? .input/AUTHORIZATION.md\n?? .input/SOUL.md\n?? .input/TASK.md\n?? .input/UPSTREAM_SYNTHETIC.md\n?? _reports/GATE_A_REPORT.md\n?? _reports/TEST_A_CASES.md\n?? _reports/TEST_A_EVIDENCE.md\n?? test_output/pytest_gate_a.log\n?? test_output/test_gate_a.py\n",
+  "before_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde",
+    ".input/AUTHORIZATION.md": "22259740564d8e18b379e7472c6736f45e98e44e7749eeca0b0bd108fcff8b4f",
+    ".input/SOUL.md": "e2530a2b5c8ca0cb679c96777cb9b83db7e0edb7a0e6f8fcb64bea191094e98a",
+    ".input/TASK.md": "732664d36aba0cca2cc13ed317e750c202f8b3dfac0527e10f52633ee49f56ef",
+    ".input/UPSTREAM_SYNTHETIC.md": "e92f75383856a538e4b71ee4d3c84f2e46026684f5a74607f7b4aeb1a261451e"
+  },
+  "after_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde",
+    ".input/AUTHORIZATION.md": "22259740564d8e18b379e7472c6736f45e98e44e7749eeca0b0bd108fcff8b4f",
+    ".input/SOUL.md": "e2530a2b5c8ca0cb679c96777cb9b83db7e0edb7a0e6f8fcb64bea191094e98a",
+    ".input/TASK.md": "732664d36aba0cca2cc13ed317e750c202f8b3dfac0527e10f52633ee49f56ef",
+    ".input/UPSTREAM_SYNTHETIC.md": "e92f75383856a538e4b71ee4d3c84f2e46026684f5a74607f7b4aeb1a261451e",
+    "test_output/pytest_gate_a.log": "b3ea122a29a525a230e93ecef1d5f381ffe64beaf9e87830b9c3c8afbfdbcfb5",
+    "test_output/test_gate_a.py": "325714b7768167a5115e3e528337e08d3646693b99ab12379066927b83bbe80b",
+    "_reports/GATE_A_REPORT.md": "577863401069f4c2d841350b54de454a05164f2bc9e96c314e5981269f8fd3ff",
+    "_reports/TEST_A_CASES.md": "3d9510c0e9dac168ecef20726577221336001e848865179bd09cd8f952be46e3",
+    "_reports/TEST_A_EVIDENCE.md": "2fafbf15f4b7de61b38c1a8bcc52d0b295b448f829904e37e6703237614bc683"
+  },
+  "added": [
+    "_reports/GATE_A_REPORT.md",
+    "_reports/TEST_A_CASES.md",
+    "_reports/TEST_A_EVIDENCE.md",
+    "test_output/pytest_gate_a.log",
+    "test_output/test_gate_a.py"
+  ],
+  "removed": [],
+  "changed": [],
+  "reports": [
+    "_reports/GATE_A_REPORT.md",
+    "_reports/TEST_A_CASES.md",
+    "_reports/TEST_A_EVIDENCE.md"
+  ],
+  "stdout_sha256": "e8bcc007f9ecdc46fb6d2b1a53e41adf9e92631a879db4893c3801268e224dfb",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_model": "group/gpt-6-luna",
+  "observed_model": "UNVERIFIED",
+  "user_authorized_reports": "_reports/; tester may additionally add test_output/",
+  "created": "2026-11-05T22:45:32.988055+08:00"
+}

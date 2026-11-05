@@ -1,0 +1,21 @@
+from toy import count_done
+
+
+def test_ta01_mixed_true_false_values():
+    assert count_done([True, False, True]) == 2
+
+
+def test_ta02_false_only():
+    assert count_done([False]) == 0
+
+
+def test_ta03_empty_list():
+    assert count_done([]) == 0
+
+
+def test_ta04_true_only():
+    assert count_done([True]) == 1
+
+
+def test_ta05_all_true():
+    assert count_done([True, True, True]) == 3

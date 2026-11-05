@@ -1,0 +1,42 @@
+{
+  "run_id": "stage21f-r2-p1-spec-reviewer-001",
+  "role": "p1-spec-reviewer",
+  "process_exit": 0,
+  "thread_or_session_ids": [
+    "ses_e53d6c350ffe36e0mmrDsVTeJA"
+  ],
+  "expected_commit": null,
+  "post_HEAD": null,
+  "status": "NO_GIT_EXPECTED",
+  "before_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "80fca634f946f0df273c936959ea05bb562f967cfc84f9d4ff73cea433c0ffe0",
+    ".input/AUTHORIZATION.md": "22259740564d8e18b379e7472c6736f45e98e44e7749eeca0b0bd108fcff8b4f",
+    ".input/SOUL.md": "5226a65f2dafd4a5d69da70ea1d9813581ac324db3aea009432a06cc9bf4ff4d",
+    ".input/TASK.md": "0253d0f01e8b7b928dd0e54b33acee4b7f488154a58a9ad14d96100c5b092586"
+  },
+  "after_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "80fca634f946f0df273c936959ea05bb562f967cfc84f9d4ff73cea433c0ffe0",
+    ".input/AUTHORIZATION.md": "22259740564d8e18b379e7472c6736f45e98e44e7749eeca0b0bd108fcff8b4f",
+    ".input/SOUL.md": "5226a65f2dafd4a5d69da70ea1d9813581ac324db3aea009432a06cc9bf4ff4d",
+    ".input/TASK.md": "0253d0f01e8b7b928dd0e54b33acee4b7f488154a58a9ad14d96100c5b092586",
+    "_reports/SPEC_REVIEW_REPORT.md": "2fa4a25f1e67007f4a1bb2b57839f1a9cb6a91bd6865a5e6887e206089b25fc0"
+  },
+  "added": [
+    "_reports/SPEC_REVIEW_REPORT.md"
+  ],
+  "removed": [],
+  "changed": [],
+  "reports": [
+    "_reports/SPEC_REVIEW_REPORT.md"
+  ],
+  "stdout_sha256": "ae66ee96ab6e1ed74d246c0e94de7d3a1c27dede9fbd6b41982270b1b401d031",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_model": "magpie/group/deepseek-v4.1-flash",
+  "observed_model": "UNVERIFIED",
+  "user_authorized_reports": "_reports/; tester may additionally add test_output/",
+  "created": "2026-11-05T22:43:53.454827+08:00"
+}

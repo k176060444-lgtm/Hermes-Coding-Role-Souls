@@ -1,0 +1,220 @@
+{
+  "description": "Raw CLI originals stay local. Published files are redacted derivatives; audit final texts extracted verbatim except privacy redaction. Original SHA256 permits local comparison.",
+  "files": [
+    {
+      "file": "raw/tester_gate_a/pre.jsonl",
+      "source_sha256": "35b926bdd3bde4b7ee6f09229da9392ae49a47d549fd1de748214bc59f791dc5",
+      "published_sha256": "b745d7514118d54a1a9ff206efd1de35210320ab5edc08e8f926d7d916103d73",
+      "source_bytes": 65731,
+      "published_bytes": 65766,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/tester_gate_a/pre-final.md",
+      "source_sha256": "483f6d117752c14f57e042761c3e2413496dfb4046d49841a108e92dde124499",
+      "published_sha256": "608eedcc9451c37b95a20e51bcf66b5e790e80215e1f864c522583a365c34c49",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/tester_gate_a/post.jsonl",
+      "source_sha256": "77b5f2d0e0a5d562eeecef89efc28cc81d34606b1bb9ba540b9659d0270a9e4e",
+      "published_sha256": "669068d032f42524cd150b27041b211c2d09dac79176db79fcc5d2de22be73cb",
+      "source_bytes": 286325,
+      "published_bytes": 286057,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/tester_gate_a/post-final.md",
+      "source_sha256": "605e04702806e718921bccf77bacd81cabf0005c28ed3a0f12eb465705eba3f6",
+      "published_sha256": "7b5da3270af75de3e19142a7a0630756e097515e7d5e31f1e1b3fce644c00b97",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/tester_gate_a/role.stdout.txt",
+      "source_sha256": "e8bcc007f9ecdc46fb6d2b1a53e41adf9e92631a879db4893c3801268e224dfb",
+      "published_sha256": "d126fe4711bc2155ab34e33267e2995f09dc395500f65817ef70beb89cc99686",
+      "source_bytes": 20842,
+      "published_bytes": 20806,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/tester_gate_a/role.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "published_bytes": 0,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/TASK.md",
+      "source_sha256": "732664d36aba0cca2cc13ed317e750c202f8b3dfac0527e10f52633ee49f56ef",
+      "published_sha256": "732664d36aba0cca2cc13ed317e750c202f8b3dfac0527e10f52633ee49f56ef",
+      "source_bytes": 1309,
+      "published_bytes": 1309,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/AUTHORIZATION.md",
+      "source_sha256": "22259740564d8e18b379e7472c6736f45e98e44e7749eeca0b0bd108fcff8b4f",
+      "published_sha256": "22259740564d8e18b379e7472c6736f45e98e44e7749eeca0b0bd108fcff8b4f",
+      "source_bytes": 785,
+      "published_bytes": 785,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/reports/GATE_A_REPORT.md",
+      "source_sha256": "577863401069f4c2d841350b54de454a05164f2bc9e96c314e5981269f8fd3ff",
+      "published_sha256": "577863401069f4c2d841350b54de454a05164f2bc9e96c314e5981269f8fd3ff",
+      "source_bytes": 1564,
+      "published_bytes": 1564,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/reports/TEST_A_CASES.md",
+      "source_sha256": "3d9510c0e9dac168ecef20726577221336001e848865179bd09cd8f952be46e3",
+      "published_sha256": "3d9510c0e9dac168ecef20726577221336001e848865179bd09cd8f952be46e3",
+      "source_bytes": 1828,
+      "published_bytes": 1828,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/reports/TEST_A_EVIDENCE.md",
+      "source_sha256": "2fafbf15f4b7de61b38c1a8bcc52d0b295b448f829904e37e6703237614bc683",
+      "published_sha256": "fe5cbadc6994202de9fdc5e8413158570b5f27204df0f3667c4a602cf1859af5",
+      "source_bytes": 2173,
+      "published_bytes": 2173,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/META.json",
+      "source_sha256": "2c95776b764d233c5e37f7c571c27066d99b89305b9cec681d8a1bbec640f393",
+      "published_sha256": "2c95776b764d233c5e37f7c571c27066d99b89305b9cec681d8a1bbec640f393",
+      "source_bytes": 3141,
+      "published_bytes": 3141,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/pre.jsonl",
+      "source_sha256": "bba1f89065614f100403cd1863360f8db10bbe223bfbfcf82a7868be540a6689",
+      "published_sha256": "c886161c347131e656b991332dbfd006b5ef7fdda6c035708396a10444b510b9",
+      "source_bytes": 47125,
+      "published_bytes": 47261,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/pre-final.md",
+      "source_sha256": "e18a15973ded30f5babaf7112dfc92f66b3d88465e80c5b46f2e4da5edf4b5c6",
+      "published_sha256": "c2d0e40df5247eb49aa1f7487c2e715c7ba442455020c2ddeb933c809bede209",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/post.jsonl",
+      "source_sha256": "3ec9b8e290faf269fbdf66f7126aa5adc4545e30e8e245be2e9c63ec28471dab",
+      "published_sha256": "5cc040e08b1b399d385f1c7d9544b302918d8113049692bc9e143099e8774de7",
+      "source_bytes": 261754,
+      "published_bytes": 262456,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/post-final.md",
+      "source_sha256": "5c381063d00514d42bbac02eb5df0ba0d3869f6105a3d0e2c4ac26d14b35d024",
+      "published_sha256": "ddf22fe2e0504ed1e16304f9f0a45a39bd815e88f8b92f9ab0aa9443e7f8d13a",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/role.stdout.txt",
+      "source_sha256": "ae66ee96ab6e1ed74d246c0e94de7d3a1c27dede9fbd6b41982270b1b401d031",
+      "published_sha256": "236ec910b19a244d4b938339f9aa4e969c49c531104c84725519b840e1efd510",
+      "source_bytes": 39763,
+      "published_bytes": 40018,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/role.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "published_bytes": 0,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/TASK.md",
+      "source_sha256": "0253d0f01e8b7b928dd0e54b33acee4b7f488154a58a9ad14d96100c5b092586",
+      "published_sha256": "0253d0f01e8b7b928dd0e54b33acee4b7f488154a58a9ad14d96100c5b092586",
+      "source_bytes": 1140,
+      "published_bytes": 1140,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/AUTHORIZATION.md",
+      "source_sha256": "22259740564d8e18b379e7472c6736f45e98e44e7749eeca0b0bd108fcff8b4f",
+      "published_sha256": "22259740564d8e18b379e7472c6736f45e98e44e7749eeca0b0bd108fcff8b4f",
+      "source_bytes": 785,
+      "published_bytes": 785,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/reports/SPEC_REVIEW_REPORT.md",
+      "source_sha256": "2fa4a25f1e67007f4a1bb2b57839f1a9cb6a91bd6865a5e6887e206089b25fc0",
+      "published_sha256": "2fa4a25f1e67007f4a1bb2b57839f1a9cb6a91bd6865a5e6887e206089b25fc0",
+      "source_bytes": 7855,
+      "published_bytes": 7855,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/META.json",
+      "source_sha256": "a265015a476a917b88f54840421cc86d17fe499795729dabba103d99f6915ed6",
+      "published_sha256": "a265015a476a917b88f54840421cc86d17fe499795729dabba103d99f6915ed6",
+      "source_bytes": 2033,
+      "published_bytes": 2033,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/tests/pytest_gate_a.log.txt",
+      "source_sha256": "b3ea122a29a525a230e93ecef1d5f381ffe64beaf9e87830b9c3c8afbfdbcfb5",
+      "published_sha256": "e9e307f8de572bf4189692c912f348a028692c3b10fd100a9832b4752e391c75",
+      "source_bytes": 4246,
+      "published_bytes": 2081,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/tests/test_gate_a.py.txt",
+      "source_sha256": "325714b7768167a5115e3e528337e08d3646693b99ab12379066927b83bbe80b",
+      "published_sha256": "325714b7768167a5115e3e528337e08d3646693b99ab12379066927b83bbe80b",
+      "source_bytes": 384,
+      "published_bytes": 384,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/protected-after.json",
+      "source_sha256": "2ba5a3028d8e00642ab0f03ecf77a41a0ad37dc31105ffa61a441bb63dcc889d",
+      "published_sha256": "8da7130f3703ae4834f8475bf9f7c5a2463663787537f1e46051a4ce930c47b4",
+      "source_bytes": 3006,
+      "published_bytes": 2939,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "21F-r2-report.md",
+      "published_sha256": "c84dc4f4024377e5258116908187df88132e188ed73d7204fe3fc95ae92e82ac",
+      "published_bytes": 5866,
+      "processing": "scheduler-authored report"
+    },
+    {
+      "file": "21G-blocked.md",
+      "published_sha256": "6a276dbfb888a3de228d3a9a2022c9b2f600e7c624bf9b60eee3be22d4aca683",
+      "published_bytes": 1174,
+      "processing": "scheduler-authored report"
+    }
+  ],
+  "file_count": 27,
+  "redaction_counts_by_pattern_index": {
+    "0": 399,
+    "1": 616,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "scan": "No residual private home prefix, IPv4, recognized token or bearer pattern found; not a guarantee against unknown secret formats."
+}
