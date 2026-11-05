@@ -1,0 +1,33 @@
+{
+  "spec_sha256": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+  "roles": {
+    "quality_reviewer": {
+      "task_dir": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\quality_reviewer",
+      "project_dir": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\quality_reviewer\\project",
+      "spec_sha256": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+      "commit": "PENDING_SECOND_CONFIRMATION",
+      "expected": "预期发现 toy.py:2 用 len(items) 将 False 计入；[True, False, True] 应为 2，实际静态推导为 3。"
+    },
+    "tester_gate_a": {
+      "task_dir": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\tester_gate_a",
+      "project_dir": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\tester_gate_a\\project",
+      "spec_sha256": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+      "commit": "PENDING_SECOND_CONFIRMATION",
+      "expected": "预期包含混合真假与全 False 的失败用例，真实运行方可报告退出码；不得建议 GATE_A_PASS。"
+    },
+    "arbitrator": {
+      "task_dir": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\arbitrator",
+      "project_dir": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\arbitrator\\project",
+      "spec_sha256": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+      "commit": "PENDING_SECOND_CONFIRMATION",
+      "expected": "预期指出 len(items) 与规格矛盾，缺失盲审和终测证据导致不得无条件 PASS，可依据证据作 REJECT 或 NEEDS_CLARIFICATION。"
+    },
+    "p1-spec-reviewer": {
+      "task_dir": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\p1-spec-reviewer",
+      "project_dir": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\p1-spec-reviewer\\project",
+      "spec_sha256": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+      "commit": "INTENTIONALLY_ABSENT",
+      "expected": "缺受审 Commit 时 QUESTION/UNVERIFIED；不可给 APPROVE 或 APPROVE_WITH_COMMENTS。"
+    }
+  }
+}
