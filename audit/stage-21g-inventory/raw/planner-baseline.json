@@ -1,0 +1,22 @@
+{
+  "run_id": "stage21g-planner-001",
+  "role": "planner",
+  "phase": "0.2",
+  "head": "f2fafe432e0102d0249bfa2d6827a5f7c84a449e",
+  "spec": "NOT_YET_CREATED",
+  "soul_sha256": "6e00b632b38dee6094523efb1e3c6a02ee17198dd4c13fca43000fe6b1b50e0b",
+  "requested_model": "group/gpt-6-luna",
+  "before_sha256": {
+    "TEST_ONLY_AUTHORIZATION.md": "64267fc88c1a80730035e829c2121fd99667d1d74926ca9c77a477d289478362",
+    "USER_BRIEF.md": "ee3fa2866a97f0b1ee0f4c179f6f4ed90b9957b376c9035fbdfba30ec0d745b6",
+    ".input/SOUL.md": "6e00b632b38dee6094523efb1e3c6a02ee17198dd4c13fca43000fe6b1b50e0b",
+    ".input/TASK.md": "f78e12af6ba6b2910412d3f67254a4daa3fb32300927d02a3c73ccd727ecf6d8"
+  },
+  "allowed_additions": [
+    "USER_ALIGNMENT.md",
+    "TASK_SPEC.md",
+    "TDD_TASKS.md",
+    "PLANNER_REPORT.md"
+  ],
+  "production_gate": "NOT_APPROVED"
+}

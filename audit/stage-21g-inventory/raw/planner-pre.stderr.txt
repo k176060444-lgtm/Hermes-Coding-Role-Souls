@@ -1,0 +1,1 @@
+[93m[1m! [0mpermission requested: external_directory ([USER_HOME]\AppData\Local\hermes\cache\scratch\stage21g-inventory-20261106\*); auto-rejecting
