@@ -5,7 +5,7 @@
 ## 固定来源
 
 - 仓库：`https://github.com/k176060444-lgtm/Hermes-Coding-Role-Souls`
-- 发布版本：`1.1.2`
+- 发布版本：`1.1.3`
 - 本次部署应固定到用户在部署提示词中指定的 Commit，不要直接跟随未来 HEAD。
 - 仓库当前为 Public；不要擅自改变可见性。
 
@@ -50,6 +50,10 @@ Codex当前没有经验证的原生命名Agent注册方式；本包使用Soul文
 - 使用 `-PreviewPrompt -TaskFile <输入文件> -PromptOutputFile <新文件>` 在不调用模型的情况下组装完整 Prompt。脚本严格解码 UTF-8（输入可带 BOM），拒绝非法字节与覆盖现有输出，输出无 BOM UTF-8 并回读比较；它带 BOM 以兼容 Windows PowerShell 5.1。
 - 记录安装前后配置文件哈希，确认未修改全局Provider、密钥和非P1 Agent。
 - 确认未修改或重启Hermes Gateway。
+
+## 单次 Sandbox 参数
+
+真实调用可显式传入 `-SandboxMode`，脚本将该值作为单次 `codex exec -s` 参数。未传入时保持原有行为。`danger-full-access` 不提供沙箱隔离，只能在用户明确授权的任务中使用。此参数不改变全局配置。
 
 ## 版本说明
 

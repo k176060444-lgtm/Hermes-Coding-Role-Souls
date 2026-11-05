@@ -8,6 +8,8 @@ param(
     [string]$TaskFile,
     [string]$CodexExe='D:\codex\codex-agent.exe',
     [string]$ProxyUrl,
+    [ValidateSet('read-only','workspace-write','danger-full-access')]
+    [string]$SandboxMode,
     [switch]$Execute,
     [switch]$PreviewPrompt,
     [string]$PromptOutputFile
@@ -76,5 +78,8 @@ if ($ProxyUrl) {
 }
 $OutputEncoding=New-Object System.Text.UTF8Encoding($false)
 # stdout is Codex JSONL; preserve it as the native stream, do not claim it is one JSON object.
-$prompt | & $CodexExe exec -m $Model -C $WorkDir --json -
+$codexArgs=@('exec','-m',$Model,'-C',$WorkDir)
+if ($SandboxMode) { $codexArgs += @('-s',$SandboxMode) }
+$codexArgs += @('--json','-')
+$prompt | & $CodexExe @codexArgs
 exit $LASTEXITCODE
