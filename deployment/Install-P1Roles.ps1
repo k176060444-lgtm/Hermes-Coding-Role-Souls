@@ -1,4 +1,4 @@
-# 21bao role-only deployment. Defaults to preview. Does not invoke models.
+﻿# 21bao role-only deployment. Defaults to preview. Does not invoke models.
 [CmdletBinding()]
 param(
     [switch]$Apply,
