@@ -1,0 +1,18 @@
+import pytest
+
+from toy import count_done
+
+
+@pytest.mark.parametrize(
+    ("items", "expected"),
+    [
+        ([True, False, True], 2),
+        ([False], 0),
+        ([], 0),
+        ([True], 1),
+        ([False, False], 0),
+        ([True, True], 2),
+    ],
+)
+def test_count_done_boolean_cases(items, expected):
+    assert count_done(items) == expected

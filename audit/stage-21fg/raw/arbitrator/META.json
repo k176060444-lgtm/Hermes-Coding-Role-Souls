@@ -1,0 +1,44 @@
+{
+  "run_id": "stage21f-arbitrator-001",
+  "role": "arbitrator",
+  "process_exit": 0,
+  "thread_or_session_ids": [
+    "01a1abfc-651d-7db3-ad3d-ed63a34a2127"
+  ],
+  "expected_commit": "f987166becaff6e60e254694fd82ba064e001953",
+  "post_HEAD": "f987166becaff6e60e254694fd82ba064e001953",
+  "status": "?? .input/AUTHORIZATION.md\n?? .input/CASE_SYNTHETIC.md\n?? .input/SOUL.md\n?? .input/TASK.md\n?? _reports/ARBITRATION_REPORT.md\n",
+  "before_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde",
+    ".input/AUTHORIZATION.md": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+    ".input/CASE_SYNTHETIC.md": "814b38781223d163d3d61e5afe47a4ca2e15552f006f9bab9d902b4f99e58852",
+    ".input/SOUL.md": "741f9388bdaf972bbffbdfdce41bb7e0f0a397b84b850cc16a9bbaed77f17f7f",
+    ".input/TASK.md": "13ed106c2125e5e75e7d9c32d3f5bc817d5e94d00462db950782ca5dbe802aca"
+  },
+  "after_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde",
+    ".input/AUTHORIZATION.md": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+    ".input/CASE_SYNTHETIC.md": "814b38781223d163d3d61e5afe47a4ca2e15552f006f9bab9d902b4f99e58852",
+    ".input/SOUL.md": "741f9388bdaf972bbffbdfdce41bb7e0f0a397b84b850cc16a9bbaed77f17f7f",
+    ".input/TASK.md": "13ed106c2125e5e75e7d9c32d3f5bc817d5e94d00462db950782ca5dbe802aca",
+    "_reports/ARBITRATION_REPORT.md": "a022c619e06006f29bff271358e3eba385d7ed4aaa7e4f33e6827f67c89b2975"
+  },
+  "added": [
+    "_reports/ARBITRATION_REPORT.md"
+  ],
+  "removed": [],
+  "changed": [],
+  "reports": [
+    "_reports/ARBITRATION_REPORT.md"
+  ],
+  "stdout_sha256": "cc89d8df4dc5516c847e7ea8b8d6420442fd74f8f3203a0b7d8bd5f718fc88e6",
+  "stderr_sha256": "445a29dca6e37940204bb74286c43a44803cbecb9d87e101e7202f141883b2f7",
+  "requested_model": "group/gpt-6-luna",
+  "observed_model": "UNVERIFIED",
+  "user_authorized_reports": "_reports/; tester may additionally add test_output/",
+  "created": "2026-11-05T21:59:31.942706+08:00"
+}

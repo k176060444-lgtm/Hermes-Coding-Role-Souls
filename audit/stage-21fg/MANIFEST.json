@@ -1,0 +1,334 @@
+{
+  "description": "Raw CLI originals stay local. Published files are redacted derivatives; audit final texts extracted verbatim except privacy redaction. Original SHA256 permits local comparison.",
+  "files": [
+    {
+      "file": "raw/quality_reviewer/pre.jsonl",
+      "source_sha256": "fbad95b4bd1672c0ac067143ac4fbce1d1d8c13982039be4bb985cc5f8b6a123",
+      "published_sha256": "b85086464013bb9e93cf38ad136b224ad99bca9cfddba9cae6ec44e25862643f",
+      "source_bytes": 59499,
+      "published_bytes": 59418,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/quality_reviewer/pre-final.md",
+      "source_sha256": "5a9538c7530a253313fed4f4ec4ccdd6ef9e542febde1c3ab3e3c353a6383159",
+      "published_sha256": "2e8496c25f68f67861471f78620a73c2fc5964f9702ca66f43821f87e566d687",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/quality_reviewer/post.jsonl",
+      "source_sha256": "12daea013594498b5a444b1409157ab43931b8896906c9485537e7669be4788b",
+      "published_sha256": "a84a0abbbfde710db36b8ecfd4f0dae3136c1b3b50eca51be8358be787662457",
+      "source_bytes": 357394,
+      "published_bytes": 355703,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/quality_reviewer/post-final.md",
+      "source_sha256": "d71c461c490ff6164ccaf27063c36503e0527d99d2ea4e42f7073797ee3ccb92",
+      "published_sha256": "e129cef9b068b85a30cedc29a41cb34ef4da6b6578eb3d618b6f7c11f64d3c8d",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/quality_reviewer/role.stdout.txt",
+      "source_sha256": "642e47a2f7a668162a8194bf99b2bae3baf9fac72347581a95bc9c409c48ae7f",
+      "published_sha256": "a65d5ed8f9e65ef17ee31e647115a8f4550bf97a4e2fb5716d061a6d4af1a9ab",
+      "source_bytes": 31170,
+      "published_bytes": 31094,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/quality_reviewer/role.stderr.txt",
+      "source_sha256": "5d4cfc1eb898cc58e9eb9f74c5ceeb7b08ef38b9d1f182a6cce00bcac7276c09",
+      "published_sha256": "5d4cfc1eb898cc58e9eb9f74c5ceeb7b08ef38b9d1f182a6cce00bcac7276c09",
+      "source_bytes": 242,
+      "published_bytes": 242,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/quality_reviewer/TASK.md",
+      "source_sha256": "9f4490c23351067ea10e4a74e3e2d7b144e7bcd7cc1ab8dcad01b2894459f09d",
+      "published_sha256": "9f4490c23351067ea10e4a74e3e2d7b144e7bcd7cc1ab8dcad01b2894459f09d",
+      "source_bytes": 1463,
+      "published_bytes": 1463,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/quality_reviewer/AUTHORIZATION.md",
+      "source_sha256": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+      "published_sha256": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+      "source_bytes": 499,
+      "published_bytes": 499,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/quality_reviewer/reports/QUALITY_REVIEW_REPORT.md",
+      "source_sha256": "11ee96c1cf65040ddf5198305025005c8485d74d36bc08a7d3c0b8e8c61a8593",
+      "published_sha256": "11ee96c1cf65040ddf5198305025005c8485d74d36bc08a7d3c0b8e8c61a8593",
+      "source_bytes": 3465,
+      "published_bytes": 3465,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/quality_reviewer/META.json",
+      "source_sha256": "52ff0396023d4790b618f8f71f0de2f976471290478bc779441b655748a1b15d",
+      "published_sha256": "52ff0396023d4790b618f8f71f0de2f976471290478bc779441b655748a1b15d",
+      "source_bytes": 2368,
+      "published_bytes": 2368,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/pre.jsonl",
+      "source_sha256": "b306474a04c7d4314ca7073df94dd71566d68f0f073e54fb551b79185e5e369a",
+      "published_sha256": "79880186025bd2ec614ce1d30fcbf516efc54bdd2c469280a6a16181db989802",
+      "source_bytes": 57173,
+      "published_bytes": 57091,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/tester_gate_a/pre-final.md",
+      "source_sha256": "c53ec2c9c4c7df3d31176a0038a9b3ef34d5787c172eaf80f6255c56d1791799",
+      "published_sha256": "27d8735250a1d31fc248082c704da4a602bb14c1d75f4603e340f25f71f85a01",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/tester_gate_a/post.jsonl",
+      "source_sha256": "a606f6be65f2b4b59b165f5f63d9c0bbdfc70b6c150d4994eb11046457b9f176",
+      "published_sha256": "304b1e092580f071d113d985e8743dce8e6e55b7145c04bcdbc4b0998cc92fe6",
+      "source_bytes": 272684,
+      "published_bytes": 272360,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/tester_gate_a/post-final.md",
+      "source_sha256": "d9955918540420a926152048a65a64d321366fe68e18c85cda420fd006f6c1a6",
+      "published_sha256": "c05eb4e00be40bf49fab4ad19f53225115808cab993f0d720cd4f90f73d1367c",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/tester_gate_a/role.stdout.txt",
+      "source_sha256": "2f0572be42390b9b34855d454ec2c7db7067d335abc7deb589aaa942c12681c9",
+      "published_sha256": "d40670d9672bb33c2f99dbb8a997054730dafba11786d6be6fea570219fcefeb",
+      "source_bytes": 29807,
+      "published_bytes": 29771,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/tester_gate_a/role.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "published_bytes": 0,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/TASK.md",
+      "source_sha256": "cac6f514c2b939d520f325c8b1c2e0b80f48af9a04056a48da88ca320e0e723f",
+      "published_sha256": "cac6f514c2b939d520f325c8b1c2e0b80f48af9a04056a48da88ca320e0e723f",
+      "source_bytes": 1577,
+      "published_bytes": 1577,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/AUTHORIZATION.md",
+      "source_sha256": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+      "published_sha256": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+      "source_bytes": 499,
+      "published_bytes": 499,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/reports/GATE_A_REPORT.md",
+      "source_sha256": "374caf653433837d425e2e76f2cbb9a57834bc8c15bf5af7b377910ef0b660a5",
+      "published_sha256": "374caf653433837d425e2e76f2cbb9a57834bc8c15bf5af7b377910ef0b660a5",
+      "source_bytes": 1465,
+      "published_bytes": 1465,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/reports/TEST_A_CASES.md",
+      "source_sha256": "76c030e7dd1b046a1c11cf8429930ab26c13753c3dfeb1204f4feef25288ce9e",
+      "published_sha256": "76c030e7dd1b046a1c11cf8429930ab26c13753c3dfeb1204f4feef25288ce9e",
+      "source_bytes": 1330,
+      "published_bytes": 1330,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/reports/TEST_A_EVIDENCE.md",
+      "source_sha256": "42edb31db204f1eadf4380c6fff00e03bfc5278f8c8f09b4aa49dea25bb09e06",
+      "published_sha256": "42edb31db204f1eadf4380c6fff00e03bfc5278f8c8f09b4aa49dea25bb09e06",
+      "source_bytes": 1228,
+      "published_bytes": 1228,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/META.json",
+      "source_sha256": "0a732a7fe3222cf2ccb71a1a1cd601214960b0ca21e788952b842e900fce9d37",
+      "published_sha256": "0a732a7fe3222cf2ccb71a1a1cd601214960b0ca21e788952b842e900fce9d37",
+      "source_bytes": 4023,
+      "published_bytes": 4023,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/arbitrator/pre.jsonl",
+      "source_sha256": "d07c998b5c06882bf23c26ff85ec73eb2ee68471016582e622f37098a6f21a50",
+      "published_sha256": "420f0faa52ca1317c97defc7a3677d3018816f65582ab852c402e7c47f791f3d",
+      "source_bytes": 62716,
+      "published_bytes": 62617,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/arbitrator/pre-final.md",
+      "source_sha256": "b7727ba9c3b57d4e1ec6e0054641df252ba9b01f8c3af6953e335f12d14227d4",
+      "published_sha256": "b36ce8e28b542a29fd6d209f58e524e3670bad7e084b9ec2bfe5466e841d472b",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/arbitrator/post.jsonl",
+      "source_sha256": "c848b4cd13c190688f6f3a78cbafc34b299d5bcd68c53cd77972cf63ae7a09cc",
+      "published_sha256": "dee586aadcc5aa29c41b9a15272218c0df3bb5abf7f4dcaf7bfee1f0119ddc99",
+      "source_bytes": 230520,
+      "published_bytes": 230052,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/arbitrator/post-final.md",
+      "source_sha256": "672f8688a8c88f14c5cdbf1e692b3e078368636b4b2b68fd808f7b6c2aa2c61d",
+      "published_sha256": "de15e8d9ddab3e26eaf4b271da8d8568cd3e92604c50a806c1df101d57696791",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/arbitrator/role.stdout.txt",
+      "source_sha256": "cc89d8df4dc5516c847e7ea8b8d6420442fd74f8f3203a0b7d8bd5f718fc88e6",
+      "published_sha256": "096ce5b2b32605ca451515a55a03b0616a7db984ee749e54f06742930afe99b2",
+      "source_bytes": 29187,
+      "published_bytes": 29173,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/arbitrator/role.stderr.txt",
+      "source_sha256": "445a29dca6e37940204bb74286c43a44803cbecb9d87e101e7202f141883b2f7",
+      "published_sha256": "445a29dca6e37940204bb74286c43a44803cbecb9d87e101e7202f141883b2f7",
+      "source_bytes": 242,
+      "published_bytes": 242,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/arbitrator/TASK.md",
+      "source_sha256": "13ed106c2125e5e75e7d9c32d3f5bc817d5e94d00462db950782ca5dbe802aca",
+      "published_sha256": "13ed106c2125e5e75e7d9c32d3f5bc817d5e94d00462db950782ca5dbe802aca",
+      "source_bytes": 1500,
+      "published_bytes": 1500,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/arbitrator/AUTHORIZATION.md",
+      "source_sha256": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+      "published_sha256": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+      "source_bytes": 499,
+      "published_bytes": 499,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/arbitrator/reports/ARBITRATION_REPORT.md",
+      "source_sha256": "a022c619e06006f29bff271358e3eba385d7ed4aaa7e4f33e6827f67c89b2975",
+      "published_sha256": "a022c619e06006f29bff271358e3eba385d7ed4aaa7e4f33e6827f67c89b2975",
+      "source_bytes": 6273,
+      "published_bytes": 6273,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/arbitrator/META.json",
+      "source_sha256": "5b6b765570cf621ba65276e27070a93a75e37a81a0041e3e31146e39fa41d40b",
+      "published_sha256": "5b6b765570cf621ba65276e27070a93a75e37a81a0041e3e31146e39fa41d40b",
+      "source_bytes": 2399,
+      "published_bytes": 2399,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/pre.jsonl",
+      "source_sha256": "40010faad5bc85c972cc16dbb383fcb1cf49578dcf650c6e5726390867a96538",
+      "published_sha256": "9cb4e9ee26bfe724c7669acc7ddedf71cf75f6e2d1615d22f3cda0311cf3c6eb",
+      "source_bytes": 65558,
+      "published_bytes": 65480,
+      "processing": "redacted; UTF-8; JSONL reserialized"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/pre-final.md",
+      "source_sha256": "077b491635859e89cb7a08995a0e0156f6cf8ee52750eee3f2cb660d77a95218",
+      "published_sha256": "03bb652df61cc476688b1fa2884836a4830ac15eb30f2c814e7749cd71ef7299",
+      "processing": "final audit text extracted from actual event; redacted"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/TASK.md",
+      "source_sha256": "41d76983a59c7d1338a92794b215563a42fcb03bad728e455dc171c770c43cbb",
+      "published_sha256": "41d76983a59c7d1338a92794b215563a42fcb03bad728e455dc171c770c43cbb",
+      "source_bytes": 1516,
+      "published_bytes": 1516,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/p1-spec-reviewer/AUTHORIZATION.md",
+      "source_sha256": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+      "published_sha256": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+      "source_bytes": 499,
+      "published_bytes": 499,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/tests/pytest_gate_a.log.txt",
+      "source_sha256": "3b646ab9d95dd19f843af971a6f8531b540e2451aa8515ad301152b55da75882",
+      "published_sha256": "7af24e4448b0be9ab1a3395330a2ec08dcdafefbd61284f2faa2ea33666489e5",
+      "source_bytes": 2014,
+      "published_bytes": 989,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/tests/pytest_gate_a_module.log.txt",
+      "source_sha256": "3a19efa9f372f8067255a13ac8d8ecaf13504f1beb20760ad44cc8d2319aecf4",
+      "published_sha256": "2d5d42d81f42cad860561461a16cd89f09dc3b9220943d9723435137b70fe1f8",
+      "source_bytes": 4782,
+      "published_bytes": 2319,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/tester_gate_a/tests/test_gate_a.py.txt",
+      "source_sha256": "e1f30488c249c20e540e0847acbf86e3e7deeb10a9d25f031766ab5194f27321",
+      "published_sha256": "e1f30488c249c20e540e0847acbf86e3e7deeb10a9d25f031766ab5194f27321",
+      "source_bytes": 355,
+      "published_bytes": 355,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "raw/protected-after.json",
+      "source_sha256": "7cd9da6abfff7b6a953a0df158f4139a0f1f68fbc6e608d9680ec06e0bad17e5",
+      "published_sha256": "a6bb975ece9e2a3bed2d008796f011affdbb2f821d8be3f91c0397a3df99aa90",
+      "source_bytes": 2993,
+      "published_bytes": 2926,
+      "processing": "redacted; UTF-8; line endings normalized"
+    },
+    {
+      "file": "21F-report.md",
+      "published_sha256": "dbd24c68dbc1af5506ca373e28644b24396f9ee3e84d0fca44bc73c6e710bb10",
+      "published_bytes": 8745,
+      "processing": "scheduler-authored report"
+    },
+    {
+      "file": "21G-report.md",
+      "published_sha256": "2b88d3a74cf8b376ecb4801fef7ab544f805a85bd7d23f9ecdaabd2e0c7197cd",
+      "published_bytes": 3608,
+      "processing": "scheduler-authored report"
+    }
+  ],
+  "file_count": 42,
+  "redaction_counts_by_pattern_index": {
+    "0": 676,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "scan": "No residual private home prefix, IPv4, recognized token or bearer pattern found; not a guarantee against unknown secret formats.",
+  "additional_email_like_redactions": 0
+}

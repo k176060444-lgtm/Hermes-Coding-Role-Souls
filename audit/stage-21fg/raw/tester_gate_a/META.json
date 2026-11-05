@@ -1,0 +1,66 @@
+{
+  "run_id": "stage21f-tester_gate_a-001",
+  "role": "tester_gate_a",
+  "process_exit": 0,
+  "thread_or_session_ids": [
+    "01a1abfc-651d-7881-9b84-962d12e3181f"
+  ],
+  "expected_commit": "4e5a8073e1ea9203f7f66f0eeee6ae61e3a935bf",
+  "post_HEAD": "4e5a8073e1ea9203f7f66f0eeee6ae61e3a935bf",
+  "status": "?? .input/AUTHORIZATION.md\n?? .input/SOUL.md\n?? .input/TASK.md\n?? .input/UPSTREAM_SYNTHETIC.md\n?? _reports/GATE_A_REPORT.md\n?? _reports/TEST_A_CASES.md\n?? _reports/TEST_A_EVIDENCE.md\n?? test_output/pytest_gate_a.log\n?? test_output/pytest_gate_a_module.log\n?? test_output/test_gate_a.py\n",
+  "before_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde",
+    ".input/AUTHORIZATION.md": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+    ".input/SOUL.md": "e2530a2b5c8ca0cb679c96777cb9b83db7e0edb7a0e6f8fcb64bea191094e98a",
+    ".input/TASK.md": "cac6f514c2b939d520f325c8b1c2e0b80f48af9a04056a48da88ca320e0e723f",
+    ".input/UPSTREAM_SYNTHETIC.md": "e92f75383856a538e4b71ee4d3c84f2e46026684f5a74607f7b4aeb1a261451e"
+  },
+  "after_sha256": {
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde",
+    ".input/AUTHORIZATION.md": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+    ".input/SOUL.md": "e2530a2b5c8ca0cb679c96777cb9b83db7e0edb7a0e6f8fcb64bea191094e98a",
+    ".input/TASK.md": "cac6f514c2b939d520f325c8b1c2e0b80f48af9a04056a48da88ca320e0e723f",
+    ".input/UPSTREAM_SYNTHETIC.md": "e92f75383856a538e4b71ee4d3c84f2e46026684f5a74607f7b4aeb1a261451e",
+    ".pytest_cache/.gitignore": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    ".pytest_cache/CACHEDIR.TAG": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    ".pytest_cache/README.md": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    ".pytest_cache/v/cache/lastfailed": "c0119b946cea039c45f87dd85435ddbd6734efe4f3b2306db79ad121c7f78700",
+    ".pytest_cache/v/cache/nodeids": "f900c4d4debeced1d1018f49bc86c0b00db1281c7b00db7c4ba1f6caf01ba0c8",
+    "test_output/pytest_gate_a.log": "3b646ab9d95dd19f843af971a6f8531b540e2451aa8515ad301152b55da75882",
+    "test_output/pytest_gate_a_module.log": "3a19efa9f372f8067255a13ac8d8ecaf13504f1beb20760ad44cc8d2319aecf4",
+    "test_output/test_gate_a.py": "e1f30488c249c20e540e0847acbf86e3e7deeb10a9d25f031766ab5194f27321",
+    "_reports/GATE_A_REPORT.md": "374caf653433837d425e2e76f2cbb9a57834bc8c15bf5af7b377910ef0b660a5",
+    "_reports/TEST_A_CASES.md": "76c030e7dd1b046a1c11cf8429930ab26c13753c3dfeb1204f4feef25288ce9e",
+    "_reports/TEST_A_EVIDENCE.md": "42edb31db204f1eadf4380c6fff00e03bfc5278f8c8f09b4aa49dea25bb09e06"
+  },
+  "added": [
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/lastfailed",
+    ".pytest_cache/v/cache/nodeids",
+    "_reports/GATE_A_REPORT.md",
+    "_reports/TEST_A_CASES.md",
+    "_reports/TEST_A_EVIDENCE.md",
+    "test_output/pytest_gate_a.log",
+    "test_output/pytest_gate_a_module.log",
+    "test_output/test_gate_a.py"
+  ],
+  "removed": [],
+  "changed": [],
+  "reports": [
+    "_reports/GATE_A_REPORT.md",
+    "_reports/TEST_A_CASES.md",
+    "_reports/TEST_A_EVIDENCE.md"
+  ],
+  "stdout_sha256": "2f0572be42390b9b34855d454ec2c7db7067d335abc7deb589aaa942c12681c9",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_model": "group/gpt-6-luna",
+  "observed_model": "UNVERIFIED",
+  "user_authorized_reports": "_reports/; tester may additionally add test_output/",
+  "created": "2026-11-05T21:59:31.012327+08:00"
+}

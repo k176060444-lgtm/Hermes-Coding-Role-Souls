@@ -1,0 +1,44 @@
+{
+  "run_id": "stage21f-quality_reviewer-001",
+  "role": "quality_reviewer",
+  "process_exit": 0,
+  "thread_or_session_ids": [
+    "01a1abfc-651d-7f61-b74f-1cde613d5fc2"
+  ],
+  "expected_commit": "df21d132ab75c8560c12531b1cf2a6e1aa8a5d39",
+  "post_HEAD": "df21d132ab75c8560c12531b1cf2a6e1aa8a5d39",
+  "status": "?? .input/AUTHORIZATION.md\n?? .input/SOUL.md\n?? .input/TASK.md\n?? _reports/QUALITY_REVIEW_REPORT.md\n",
+  "before_sha256": {
+    "defect.diff": "53e2b8469905a97d6c98af436db4f11bc0794ee53f9d9048aab39002f10795d7",
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde",
+    ".input/AUTHORIZATION.md": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+    ".input/SOUL.md": "de7da8db6e94d862f5b83f9e4dd69f759bd2a3927c6853b062f0a64b44fd5207",
+    ".input/TASK.md": "9f4490c23351067ea10e4a74e3e2d7b144e7bcd7cc1ab8dcad01b2894459f09d"
+  },
+  "after_sha256": {
+    "defect.diff": "53e2b8469905a97d6c98af436db4f11bc0794ee53f9d9048aab39002f10795d7",
+    "TASK_SPEC.md": "6b7a613fc03e9f3c7df98ab6a240957bf61ab149ec73e4181628a9a22947ac45",
+    "test_examples.py": "69dc8397e0c84a8fdf7f87a6370e534a11fac68ad5d962532d7f9a526f0174a6",
+    "toy.py": "4277300dbf4bc97271821565e62c683ad2535daa1e46b2f1b60f7b779b82bfde",
+    ".input/AUTHORIZATION.md": "0a78a304a9115fe4913815d2a6b2c0f5afb00d3fc9a95efea5edc4120ae611e9",
+    ".input/SOUL.md": "de7da8db6e94d862f5b83f9e4dd69f759bd2a3927c6853b062f0a64b44fd5207",
+    ".input/TASK.md": "9f4490c23351067ea10e4a74e3e2d7b144e7bcd7cc1ab8dcad01b2894459f09d",
+    "_reports/QUALITY_REVIEW_REPORT.md": "11ee96c1cf65040ddf5198305025005c8485d74d36bc08a7d3c0b8e8c61a8593"
+  },
+  "added": [
+    "_reports/QUALITY_REVIEW_REPORT.md"
+  ],
+  "removed": [],
+  "changed": [],
+  "reports": [
+    "_reports/QUALITY_REVIEW_REPORT.md"
+  ],
+  "stdout_sha256": "642e47a2f7a668162a8194bf99b2bae3baf9fac72347581a95bc9c409c48ae7f",
+  "stderr_sha256": "5d4cfc1eb898cc58e9eb9f74c5ceeb7b08ef38b9d1f182a6cce00bcac7276c09",
+  "requested_model": "group/gpt-6-luna",
+  "observed_model": "UNVERIFIED",
+  "user_authorized_reports": "_reports/; tester may additionally add test_output/",
+  "created": "2026-11-05T21:59:30.049751+08:00"
+}
