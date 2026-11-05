@@ -1,0 +1,67 @@
+{
+  "config.toml@.codex": {
+    "expected": "28ef096584cdb51edee96c8a8182afadc5774bbcfc8b16813ac6532406657944",
+    "current": "28ef096584cdb51edee96c8a8182afadc5774bbcfc8b16813ac6532406657944",
+    "status": "MATCH"
+  },
+  "Invoke-P1CodexRole.ps1@p1-roles": {
+    "expected": "fa7ed710027fbeb3065d7c47550691e27ae9e86726cf8889fd4f209ce400db77",
+    "current": "fa7ed710027fbeb3065d7c47550691e27ae9e86726cf8889fd4f209ce400db77",
+    "status": "MATCH"
+  },
+  "config.json@opencode": {
+    "expected": "65bc7174c17105edfa6be724879ba579a44a2362ba09d18cb10bf8f9b78ff936",
+    "current": "65bc7174c17105edfa6be724879ba579a44a2362ba09d18cb10bf8f9b78ff936",
+    "status": "MATCH"
+  },
+  "opencode.jsonc@opencode": {
+    "expected": "3228e544d38fb57d576a5f976e4636d40a5232a31c27e9fac280b8863c377ff2",
+    "current": "3228e544d38fb57d576a5f976e4636d40a5232a31c27e9fac280b8863c377ff2",
+    "status": "MATCH"
+  },
+  "arbitrator.md@p1-roles": {
+    "expected": "741f9388bdaf972bbffbdfdce41bb7e0f0a397b84b850cc16a9bbaed77f17f7f",
+    "current": "741f9388bdaf972bbffbdfdce41bb7e0f0a397b84b850cc16a9bbaed77f17f7f",
+    "status": "MATCH"
+  },
+  "planner.md@p1-roles": {
+    "expected": "6e00b632b38dee6094523efb1e3c6a02ee17198dd4c13fca43000fe6b1b50e0b",
+    "current": "6e00b632b38dee6094523efb1e3c6a02ee17198dd4c13fca43000fe6b1b50e0b",
+    "status": "MATCH"
+  },
+  "quality_reviewer.md@p1-roles": {
+    "expected": "de7da8db6e94d862f5b83f9e4dd69f759bd2a3927c6853b062f0a64b44fd5207",
+    "current": "de7da8db6e94d862f5b83f9e4dd69f759bd2a3927c6853b062f0a64b44fd5207",
+    "status": "MATCH"
+  },
+  "tester_gate_a.md@p1-roles": {
+    "expected": "e2530a2b5c8ca0cb679c96777cb9b83db7e0edb7a0e6f8fcb64bea191094e98a",
+    "current": "e2530a2b5c8ca0cb679c96777cb9b83db7e0edb7a0e6f8fcb64bea191094e98a",
+    "status": "MATCH"
+  },
+  "p1-pro-audit.md@agents": {
+    "expected": "5d14cf901135f844f0d2e578894853bcf0891b62887b2276bf1b5b665fbd29cc",
+    "current": "5d14cf901135f844f0d2e578894853bcf0891b62887b2276bf1b5b665fbd29cc",
+    "status": "MATCH"
+  },
+  "p1-spec-reviewer.md@agents": {
+    "expected": "5226a65f2dafd4a5d69da70ea1d9813581ac324db3aea009432a06cc9bf4ff4d",
+    "current": "5226a65f2dafd4a5d69da70ea1d9813581ac324db3aea009432a06cc9bf4ff4d",
+    "status": "MATCH"
+  },
+  "p1-tester-gate-b.md@agents": {
+    "expected": "ecebb0a9231168181fe822d2b1395c036dceca3cf8f1345acc9b6c0338d29640",
+    "current": "ecebb0a9231168181fe822d2b1395c036dceca3cf8f1345acc9b6c0338d29640",
+    "status": "MATCH"
+  },
+  "p1-worker-remediation.md@agents": {
+    "expected": "bcf40563930093f540865750ccd464af2488b952937fcc7172cecb64d76c3a9d",
+    "current": "bcf40563930093f540865750ccd464af2488b952937fcc7172cecb64d76c3a9d",
+    "status": "MATCH"
+  },
+  "p1-worker.md@agents": {
+    "expected": "8c946fadc63de290dac99571951661f3aeb9223d1cdba1a2c6d37e5383d659b8",
+    "current": "8c946fadc63de290dac99571951661f3aeb9223d1cdba1a2c6d37e5383d659b8",
+    "status": "MATCH"
+  }
+}

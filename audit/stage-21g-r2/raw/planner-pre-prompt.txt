@@ -1,0 +1,5 @@
+你是 p1-pro-audit，执行 stage21g-r2-planner-001 的 PRE。你当前工作目录就是这个 TEST_ONLY 实验的 Git 仓库根目录；全部必需材料均在此目录。只核对本次 Planner 角色开工条件，读取 USER_BRIEF.md、TEST_ONLY_AUTHORIZATION.md、.audit/planner-r2/TASK.md、.input/SOUL.md、.audit/planner-r2/BASELINE.json；检查 Git HEAD、材料 SHA256、角色/模型授权和交付范围。
+
+不加载任何其他技能，不扫描全局配置，不访问其他项目，不执行业务测试，不修改任何文件。不要尝试访问父目录或另一份项目，所有材料都在当前根目录。当前 TASK_SPEC 尚未产生是 Planner 正常前置状态，不要当作冻结文件缺失。用户已批准此 TEST_ONLY 项目需求与范围，不能当作生产 Gate 审批；观测服务端模型没有证明时标 UNVERIFIED。
+
+只简要列关键证据、实质问题及观察事项，最后必须给出 PRE: COMPLIANT / NON_COMPLIANT / UNVERIFIED 中一个明确结论。仅 COMPLIANT 且原始事件无实质矛盾才允许角色启动。不要输出冗长日志。

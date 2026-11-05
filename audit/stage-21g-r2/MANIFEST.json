@@ -1,0 +1,104 @@
+{
+  "description": "Original CLI event stream, stderr and workspaces remain local. Public files are redacted derivatives; specified nonessential outputs are omitted with SHA256.",
+  "files": [
+    {
+      "file": "raw/planner-pre.jsonl",
+      "source_sha256": "b9d39216e842ddd8e3b32e15e5a4a5096ac88033ebff0acd310cd5a7c06befda",
+      "published_sha256": "3de3e433ae756df242656957929639161240aa534e70cd21657398eb5fe96982",
+      "source_bytes": 64801,
+      "published_bytes": 50493,
+      "processing": "redacted, JSONL reserialized; nonessential outputs omitted",
+      "omitted_outputs": [
+        {
+          "tool": "read",
+          "output_sha256": "c1fa857adaf17a6f0177a5cb4939ef6abc5c64abe834823ab12a974d09f2371c"
+        }
+      ]
+    },
+    {
+      "file": "raw/planner-pre.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "published_bytes": 0,
+      "processing": "redacted, UTF-8, normalized lines",
+      "omitted_outputs": []
+    },
+    {
+      "file": "raw/planner-baseline.json",
+      "source_sha256": "1885ebb5bd06d59ccc903ebec79a3c88d6c35ec81f3ea15ed7bee792cbf7361d",
+      "published_sha256": "1885ebb5bd06d59ccc903ebec79a3c88d6c35ec81f3ea15ed7bee792cbf7361d",
+      "source_bytes": 1051,
+      "published_bytes": 1051,
+      "processing": "redacted, UTF-8, normalized lines",
+      "omitted_outputs": []
+    },
+    {
+      "file": "raw/planner-before-files.json",
+      "source_sha256": "6c94a14e01b1f303934086fe0637360513f10b9a4ff98b36df7e96f2592da867",
+      "published_sha256": "6c94a14e01b1f303934086fe0637360513f10b9a4ff98b36df7e96f2592da867",
+      "source_bytes": 676,
+      "published_bytes": 676,
+      "processing": "redacted, UTF-8, normalized lines",
+      "omitted_outputs": []
+    },
+    {
+      "file": "raw/planner-pre-prompt.txt",
+      "source_sha256": "cfecaed7cbaada6118536131360eb9fd1050c0cec10349b799f760c2c3817a30",
+      "published_sha256": "cfecaed7cbaada6118536131360eb9fd1050c0cec10349b799f760c2c3817a30",
+      "source_bytes": 1110,
+      "published_bytes": 1110,
+      "processing": "redacted, UTF-8, normalized lines",
+      "omitted_outputs": []
+    },
+    {
+      "file": "raw/planner-task.md",
+      "source_sha256": "8d4abd0541955c4fc4ecddde0624271cb790e576fba7b45d1d8ec81f5cb5a06f",
+      "published_sha256": "8d4abd0541955c4fc4ecddde0624271cb790e576fba7b45d1d8ec81f5cb5a06f",
+      "source_bytes": 1617,
+      "published_bytes": 1617,
+      "processing": "redacted, UTF-8, normalized lines",
+      "omitted_outputs": []
+    },
+    {
+      "file": "raw/USER_BRIEF.md",
+      "source_sha256": "ee3fa2866a97f0b1ee0f4c179f6f4ed90b9957b376c9035fbdfba30ec0d745b6",
+      "published_sha256": "ee3fa2866a97f0b1ee0f4c179f6f4ed90b9957b376c9035fbdfba30ec0d745b6",
+      "source_bytes": 865,
+      "published_bytes": 865,
+      "processing": "redacted, UTF-8, normalized lines",
+      "omitted_outputs": []
+    },
+    {
+      "file": "raw/TEST_ONLY_AUTHORIZATION.md",
+      "source_sha256": "64267fc88c1a80730035e829c2121fd99667d1d74926ca9c77a477d289478362",
+      "published_sha256": "64267fc88c1a80730035e829c2121fd99667d1d74926ca9c77a477d289478362",
+      "source_bytes": 998,
+      "published_bytes": 998,
+      "processing": "redacted, UTF-8, normalized lines",
+      "omitted_outputs": []
+    },
+    {
+      "file": "raw/protected-after.json",
+      "source_sha256": "8da7130f3703ae4834f8475bf9f7c5a2463663787537f1e46051a4ce930c47b4",
+      "published_sha256": "8da7130f3703ae4834f8475bf9f7c5a2463663787537f1e46051a4ce930c47b4",
+      "source_bytes": 2939,
+      "published_bytes": 2939,
+      "processing": "redacted, UTF-8, normalized lines",
+      "omitted_outputs": []
+    },
+    {
+      "file": "raw/planner-pre-final.md",
+      "source_sha256": "a6f05b28249ec2f53afd703bfb80b58eeaa6dafaea288eb549c37121a4fa66ca",
+      "published_sha256": "b1eacd1a0fba12b5556d73493dac39d8ed8e6c7105986e82e6b9d02f8c5a8767",
+      "processing": "last model text extracted from actual event and redacted"
+    },
+    {
+      "file": "21G-r2-report.md",
+      "published_sha256": "af79e733e22cf1cec0d719eac94cf74f26bf6b0570ecbf09986f2ab0377704b1",
+      "published_bytes": 6497,
+      "processing": "scheduler-authored report"
+    }
+  ],
+  "file_count": 11
+}
