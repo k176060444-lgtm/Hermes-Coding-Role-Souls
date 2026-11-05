@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "probe": {
+    "cli_exit_code": 0,
+    "thread_id": "01a1abab-37e2-7e42-801d-0b86b78c7bcf",
+    "jsonl_sha256": "3053db6b0484733dc7c2573fdd52383a0126eb911663da90572f3f00d2ae576d",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "events": [
+      {
+        "type": "thread.started",
+        "thread_id": "01a1abab-37e2-7e42-801d-0b86b78c7bcf"
+      },
+      {
+        "type": "item.started",
+        "item": {
+          "id": "item_2",
+          "type": "command_execution",
+          "command": "\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command \"Get-Content -LiteralPath .\\\\sample.txt -Raw\"",
+          "aggregated_output": "",
+          "exit_code": null,
+          "status": "in_progress"
+        }
+      },
+      {
+        "type": "item.completed",
+        "item": {
+          "id": "item_2",
+          "type": "command_execution",
+          "command": "\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command \"Get-Content -LiteralPath .\\\\sample.txt -Raw\"",
+          "aggregated_output": "CODEX_WINDOWS_EXEC_OK\n\r\n",
+          "exit_code": 0,
+          "status": "completed"
+        }
+      }
+    ],
+    "before": {
+      "sample.txt": "800253a113ad69945621d240746dc10f46135354d8bcb6af4238d10dddddeeff",
+      ".git/config": "05becdb83bb897f6103c8d91439e2e9092144edf5b3955a746fce4975c12bfdc",
+      ".git/HEAD": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10"
+    },
+    "after": {
+      "sample.txt": "800253a113ad69945621d240746dc10f46135354d8bcb6af4238d10dddddeeff",
+      ".git/config": "05becdb83bb897f6103c8d91439e2e9092144edf5b3955a746fce4975c12bfdc",
+      ".git/HEAD": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10"
+    }
+  },
+  "audits": {
+    "quality_reviewer": {
+      "run_id": "stage21e-quality_reviewer-001",
+      "session_id": "ses_e54420621ffeZQ3RzfyYz0nlEJ",
+      "process_session": "proc_df9015dd2c39",
+      "exit_code": 0,
+      "event_count": 28,
+      "last_event_type": "step_finish",
+      "last_step_reason": "tool-calls",
+      "raw_jsonl_sha256": "3fdbe910b0444ed51e42ea0983bbb069399ac9b901c214c24fc07417552d05e8",
+      "stderr_sha256": "f902bebdb7f826817f679ead5f8fe77dc74c2a92841c3395b86576fb267764ec",
+      "stderr": "\u001b[93m\u001b[1m! \u001b[0mpermission requested: external_directory (C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\*); auto-rejecting\n",
+      "rejected_calls": [
+        {
+          "tool": "bash",
+          "callID": "call_00_KiGmygaEQ9FgpNRv7GH25697",
+          "input": {
+            "command": "cd \"C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\" && ls -la && echo \"=== find .git ===\" && find . -maxdepth 4 -name \".git\" 2>/dev/null"
+          },
+          "error": "The user rejected permission to use this specific tool call."
+        }
+      ],
+      "final_audit_conclusion": "NOT_OBSERVED",
+      "raw_local_path": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\quality-pre.jsonl"
+    },
+    "tester_gate_a": {
+      "run_id": "stage21e-tester_gate_a-001",
+      "session_id": "ses_e544205cfffeRBy7nmZ07uqNMp",
+      "process_session": "proc_67d9c0bda22c",
+      "exit_code": 0,
+      "event_count": 25,
+      "last_event_type": "step_finish",
+      "last_step_reason": "tool-calls",
+      "raw_jsonl_sha256": "311696d5fde66b03136bfcb3b08747f8a9f63874aee6dddda34fe0a76e001fc3",
+      "stderr_sha256": "465d7bd211467314f252b3b99c12241558991540d1691847be06acf5e0e98efd",
+      "stderr": "\u001b[93m\u001b[1m! \u001b[0mpermission requested: external_directory (C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\tester_gate_a\\project\\*); auto-rejecting\n",
+      "rejected_calls": [
+        {
+          "tool": "bash",
+          "callID": "call_00_zzKZt8l3d86ODeuV4s2N4620",
+          "input": {
+            "command": "cd \"C:/Users/KK/AppData/Local/hermes/cache/scratch/stage21c-52fk3gqe/fixtures/tester_gate_a/project\" && git rev-parse HEAD && echo '---STATUS---' && git status --porcelain && echo '---SHOW---' && git show --stat --oneline HEAD && echo '---LOG---' && git log -n 3 --oneline && echo '---HASHES---' && sha256sum TASK_SPEC.md test_examples.py toy.py && echo '---TEST_OUTPUT---' && ls -la test_output"
+          },
+          "error": "The user rejected permission to use this specific tool call."
+        }
+      ],
+      "final_audit_conclusion": "NOT_OBSERVED",
+      "raw_local_path": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\tester-pre.jsonl"
+    },
+    "arbitrator": {
+      "run_id": "stage21e-arbitrator-001",
+      "session_id": "ses_e544204d7ffevGcMH8E7a9COJh",
+      "process_session": "proc_95857e3b0337",
+      "exit_code": 0,
+      "event_count": 22,
+      "last_event_type": "step_finish",
+      "last_step_reason": "tool-calls",
+      "raw_jsonl_sha256": "f6139ed2177555404ec3fd1880631175b648efc6d56dbf332f6ffeacb285095f",
+      "stderr_sha256": "8462bd50e14294c1783e38c6bd7640bd236e347fc2708c6a5a02175c2bb2a058",
+      "stderr": "\u001b[93m\u001b[1m! \u001b[0mpermission requested: external_directory (C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\arbitrator\\project\\*); auto-rejecting\n",
+      "rejected_calls": [
+        {
+          "tool": "bash",
+          "callID": "call_00_0O0etJltCeSmWpu4JWkH3186",
+          "input": {
+            "command": "cd \"C:/Users/KK/AppData/Local/hermes/cache/scratch/stage21c-52fk3gqe/fixtures/arbitrator/project\" && git rev-parse HEAD && echo \"---status---\" && git status --porcelain && echo \"---show stat---\" && git show --stat --oneline HEAD && echo \"---diff HEAD---\" && git diff HEAD --stat && echo \"---hashes---\" && sha256sum TASK_SPEC.md toy.py test_examples.py"
+          },
+          "error": "The user rejected permission to use this specific tool call."
+        }
+      ],
+      "final_audit_conclusion": "NOT_OBSERVED",
+      "raw_local_path": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\audits\\arbitrator-pre.jsonl"
+    }
+  },
+  "fixture_integrity_after_audit": {
+    "quality_reviewer": {
+      "head": "df21d132ab75c8560c12531b1cf2a6e1aa8a5d39",
+      "head_unchanged": true,
+      "files_unchanged": true,
+      "git_status": "",
+      "diff_empty": true,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "tester_gate_a": {
+      "head": "4e5a8073e1ea9203f7f66f0eeee6ae61e3a935bf",
+      "head_unchanged": true,
+      "files_unchanged": true,
+      "git_status": "",
+      "diff_empty": true,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "arbitrator": {
+      "head": "f987166becaff6e60e254694fd82ba064e001953",
+      "head_unchanged": true,
+      "files_unchanged": true,
+      "git_status": "",
+      "diff_empty": true,
+      "added": [],
+      "removed": [],
+      "changed": []
+    }
+  },
+  "dispatch_manifest": {
+    "quality_reviewer": {
+      "run_id": "stage21e-quality_reviewer-001",
+      "original": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\quality_reviewer\\TASK.md",
+      "original_sha256": "b2869823d7f5bc7b89c215828b5e99e8717794c9764631e78d9708ad4ebaceec",
+      "task_file": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\dispatch\\quality_reviewer\\TASK.md",
+      "task_sha256": "91c361bfc29fa03b77a9d6b8d5f1a471a4ed93304722b3243ed314ecb399403a",
+      "workdir": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\quality_reviewer\\project"
+    },
+    "tester_gate_a": {
+      "run_id": "stage21e-tester_gate_a-001",
+      "original": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\tester_gate_a\\TASK.md",
+      "original_sha256": "e9a0ca02f663d88e3e6a325ebcfc677b5b70cd260534df22ce2c0aa3045066f0",
+      "task_file": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\dispatch\\tester_gate_a\\TASK.md",
+      "task_sha256": "5db6a8fdeb0ce603d6e694198ac19ed4f8d00338e7e2135b74613fbb34f0b1fb",
+      "workdir": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\tester_gate_a\\project"
+    },
+    "arbitrator": {
+      "run_id": "stage21e-arbitrator-001",
+      "original": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\arbitrator\\TASK.md",
+      "original_sha256": "2c745c3a73181326222e89eba921b8191c384adab345257917675a36b5f6f1c5",
+      "task_file": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21e-81n2mfg9\\dispatch\\arbitrator\\TASK.md",
+      "task_sha256": "dbc2f851bbd192521b4f3d3856639091b2e6ccc3bde2276622a6811050b6cbe7",
+      "workdir": "C:\\Users\\KK\\AppData\\Local\\hermes\\cache\\scratch\\stage21c-52fk3gqe\\fixtures\\arbitrator\\project"
+    }
+  },
+  "protected_baseline": {
+    "C:\\Users\\KK\\.codex\\config.toml": "6ea2640e679ae1bfb552cba5bc4aa35300bdb17732b6718a25be275741886fe2",
+    "C:\\Users\\KK\\.config\\opencode\\config.json": "65bc7174c17105edfa6be724879ba579a44a2362ba09d18cb10bf8f9b78ff936",
+    "C:\\Users\\KK\\.config\\opencode\\opencode.jsonc": "3228e544d38fb57d576a5f976e4636d40a5232a31c27e9fac280b8863c377ff2",
+    "C:\\Users\\KK\\.codex\\p1-roles\\Invoke-P1CodexRole.ps1": "45c66c330cb89077f048fce5d9573f91349d80ebf93a2a3c57aa5f5bfb9058fd",
+    "C:\\Users\\KK\\.codex\\p1-roles\\arbitrator.md": "741f9388bdaf972bbffbdfdce41bb7e0f0a397b84b850cc16a9bbaed77f17f7f",
+    "C:\\Users\\KK\\.codex\\p1-roles\\planner.md": "6e00b632b38dee6094523efb1e3c6a02ee17198dd4c13fca43000fe6b1b50e0b",
+    "C:\\Users\\KK\\.codex\\p1-roles\\quality_reviewer.md": "de7da8db6e94d862f5b83f9e4dd69f759bd2a3927c6853b062f0a64b44fd5207",
+    "C:\\Users\\KK\\.codex\\p1-roles\\tester_gate_a.md": "e2530a2b5c8ca0cb679c96777cb9b83db7e0edb7a0e6f8fcb64bea191094e98a",
+    "C:\\Users\\KK\\.config\\opencode\\agents\\p1-pro-audit.md": "5d14cf901135f844f0d2e578894853bcf0891b62887b2276bf1b5b665fbd29cc",
+    "C:\\Users\\KK\\.config\\opencode\\agents\\p1-spec-reviewer.md": "5226a65f2dafd4a5d69da70ea1d9813581ac324db3aea009432a06cc9bf4ff4d",
+    "C:\\Users\\KK\\.config\\opencode\\agents\\p1-tester-gate-b.md": "ecebb0a9231168181fe822d2b1395c036dceca3cf8f1345acc9b6c0338d29640",
+    "C:\\Users\\KK\\.config\\opencode\\agents\\p1-worker-remediation.md": "bcf40563930093f540865750ccd464af2488b952937fcc7172cecb64d76c3a9d",
+    "C:\\Users\\KK\\.config\\opencode\\agents\\p1-worker.md": "8c946fadc63de290dac99571951661f3aeb9223d1cdba1a2c6d37e5383d659b8"
+  }
+}
