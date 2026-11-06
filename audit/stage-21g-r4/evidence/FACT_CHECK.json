@@ -1,0 +1,38 @@
+{
+  "scope": "无模型事实核验；无历史判决改写",
+  "meta_sha256": "0ddea57fdc7cc54c48b72ff2f77f72f3cdbb31d981592151ec9ebddff40e0a63",
+  "planner_key": ".audit/planner-r3/post/pre.jsonl",
+  "planner_value": "778ae2dce7335899a0c7910b7d4698f6839aae0db55c6d1a0a6cb295ac80a89e",
+  "planner_file_sha256": "778ae2dce7335899a0c7910b7d4698f6839aae0db55c6d1a0a6cb295ac80a89e",
+  "worker_key": ".audit/worker-r3/post/pre.jsonl",
+  "worker_key_in_before_map": false,
+  "worker_file_exists": true,
+  "worker_file_sha256": "cf67004fe434cb6108c6a478857bb578a25036fc246ddd84d58906c386304a1f",
+  "interpretation": "不同路径、不同文件；目前没有依据声称文件被替换。R3 Spec PRE历史错误保留。",
+  "head": "a1d4a578f9334bfcda8004d25a4a43dfef7ebf13",
+  "files_sha256": {
+    "TASK_SPEC.md": "dafc4a314bfb69c887929a3df12f6f76dee45d8686902659fc514352afe8258c",
+    "TEST_ONLY_FREEZE.md": "bb1fe989ef24ff0b6b7a4d202ad24ea6ea01dedfc09e147133f15dde184ce63c",
+    "inventory.py": "29c4817208089e2fc5ecc1520b73bcf861d25c21624cb127a7f43748bb5f84e4",
+    "test_inventory.py": "fc1d6a83adb9473525a8f07b5fc1ce967265ead0f5ef4751451ada338d20d788",
+    "TDD_EVIDENCE.md": "a75b163d783e8af677872a677094e78102f6fa23b4d5a500e3ca73f09328e3d9",
+    "WORKER_REPORT.md": "7e9ac35d287386f2ea7142549316033d81f32973f1a0fdb06fa559fcf58930e2"
+  },
+  "backup_manifest_count": 97,
+  "backup_mismatches": [],
+  "quality_pre_sha256": "1e2cec5d912870fb05a24db5a823285aa8a249d6a35d3789a1afb94e8c13b779",
+  "quality_pre_session": "ses_e51f869c7ffek2zfZUknsW4lfo",
+  "quality_pre_result": "COMPLIANT",
+  "quality_run_id": "stage21g-r3-quality-reviewer-001",
+  "quality_role_stdout_exists": false,
+  "quality_report_exists": false,
+  "codex_session_search": {
+    "path": "[USER_HOME]/.codex/sessions",
+    "query": "stage21g-r3-quality-reviewer-001",
+    "jsonl_scanned": 66,
+    "matches": [],
+    "read_errors": [],
+    "limitation": "只证明已扫描目录可读日志中无此字符串，不是绝对证明。"
+  },
+  "quality_reuse": "基线、规格、Soul、模型与任务范围未变；用户本次授权复用原 run_id 的原 PRE；在现有记录范围无角色启动证据。"
+}

@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "scope": "redacted evidence; full raw events retained locally",
+  "entries": [
+    {
+      "path": "21G-r4-report.md",
+      "sha256": "43ef467c68f6a9feac79050e04e479a7625ad92802891043b7281614cd2f3f00",
+      "bytes": 6539
+    },
+    {
+      "path": "evidence/FACT_CHECK.json",
+      "sha256": "9a053b01064929a940af7265bf4f98c80a0422a2ab215ef95e6db2e09a96bb41",
+      "bytes": 2181
+    },
+    {
+      "path": "evidence/quality-post-final.md",
+      "sha256": "2adb6494323b30c975092685e0659093c9940a36c2e5ed6bb7246b6a6975af08",
+      "bytes": 6576
+    },
+    {
+      "path": "evidence/quality-r3-pre-reused-final.md",
+      "sha256": "ac72602ce692977fbdaea0a5d09ee21fbaee43471e6eb6e8407cefa1c405223d",
+      "bytes": 14752
+    },
+    {
+      "path": "evidence/QUALITY_REVIEW_REPORT.md",
+      "sha256": "e26408f0a6a2cb22b9cb71caab812ebc2e784637fa1e5db39d1f0ae9ce81fd7d",
+      "bytes": 3654
+    },
+    {
+      "path": "evidence/RAW_EVENT_INDEX.json",
+      "sha256": "04bb0535fceba8c533649af5cb45278423899172e2b9fa3517a9e20021198209",
+      "bytes": 1626
+    },
+    {
+      "path": "evidence/spec-post-final.md",
+      "sha256": "11014e1923e7d45b7d53fe04d7f96f89955675e2018eff9aab5be04fd4866271",
+      "bytes": 3527
+    },
+    {
+      "path": "evidence/spec-pre-final.md",
+      "sha256": "55e133d475510fbc8a447a8a289e5ce0c5110dd9ca1b5ad0c81731c713942f88",
+      "bytes": 5772
+    },
+    {
+      "path": "evidence/SPEC_POST_CONTRADICTION.json",
+      "sha256": "a6594c0801a060847d381a3501cc415ba59bb4415b709d36a13870dc6c943381",
+      "bytes": 2463
+    },
+    {
+      "path": "evidence/SPEC_TASK.md",
+      "sha256": "4ee261b0393b40ce12ae540da74d1f9e99ed35fdcfb254d5cb029013f4ad7b70",
+      "bytes": 1621
+    },
+    {
+      "path": "evidence/USER_AUTHORIZATION_EXCERPT.md",
+      "sha256": "e9595d8b1fc4a21fce10d4b4f71a06cdfbd172023c37d93de90e8f52bc649d7d",
+      "bytes": 1731
+    }
+  ],
+  "self_hash": "excluded"
+}

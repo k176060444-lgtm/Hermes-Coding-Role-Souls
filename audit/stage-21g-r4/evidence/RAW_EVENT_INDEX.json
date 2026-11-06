@@ -1,0 +1,52 @@
+[
+  {
+    "run_directory": "spec-r4",
+    "file": "pre.jsonl",
+    "sha256": "3f8ebde02db76e048a1c7d20ecb676917514018e945802457dbd8c2c7dc1590b",
+    "session": "ses_e51db26f4ffetJPbdpgGle8vP2",
+    "event_count": 47,
+    "finish_reason": "stop"
+  },
+  {
+    "run_directory": "spec-r4",
+    "file": "post.jsonl",
+    "sha256": "0a27c3fef6f3a0d7bc93f53ecb8246104be1af4b53a8ffa0503cd625feedc358",
+    "session": "ses_e51d3b1fdffeXdCxTUKSNyqnnp",
+    "event_count": 40,
+    "finish_reason": "stop"
+  },
+  {
+    "run_directory": "quality-r3",
+    "file": "pre.jsonl",
+    "sha256": "1e2cec5d912870fb05a24db5a823285aa8a249d6a35d3789a1afb94e8c13b779",
+    "session": "ses_e51f869c7ffek2zfZUknsW4lfo",
+    "event_count": 63,
+    "finish_reason": "stop"
+  },
+  {
+    "run_directory": "quality-r4-reuse",
+    "file": "post.jsonl",
+    "sha256": "ade58188fb8d0bed05b1e0d2f517fc0dce5848bbdf41f38dc8f9fd6ecd76b34e",
+    "session": "ses_e51d3b1d8ffeSWhzavwoZ2O8Ua",
+    "event_count": 69,
+    "finish_reason": "stop"
+  },
+  {
+    "run_directory": "spec-r4",
+    "file": "role.jsonl",
+    "sha256": "e3514384c148db4aba6b47d5299783f8b198d6630fbee509e7123cd7390724cf",
+    "session_or_thread": "ses_e51d73a27ffer0HO2SYjNnYyal",
+    "event_count": 23,
+    "last_event_type": "step_finish",
+    "finish_reason": "tool-calls"
+  },
+  {
+    "run_directory": "quality-r4-reuse",
+    "file": "role.stdout",
+    "sha256": "c0daf93959c09fd78a6b087743808e52c3bc362a3026711cfba9b61c591d1c17",
+    "session_or_thread": "01a1ae28-c3bc-7623-b53b-e0dd4cc12319",
+    "event_count": 25,
+    "last_event_type": "turn.completed",
+    "finish_reason": null
+  }
+]
