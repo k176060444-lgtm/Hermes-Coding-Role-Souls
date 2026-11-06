@@ -1,0 +1,88 @@
+{
+  "description": "仅发布命令和状态摘要，完整 role 工具输出含私人材料，保留本机",
+  "raw_event_sha256": {
+    "pre": "bef9d34708ae1f4e166e1767953d9b46cb925363a82af437229a81b9c4d0d4bf",
+    "role": "eadd8529d6f37c12c184ed3029166f14ef610edd9112d45c182129d440d640a7",
+    "post": "a047f32a45fe96b214104cebcff07b64093f708333ac492929f5b84687ed2231"
+  },
+  "full_truncated_tool_output_sha256": "00eaa15c2f95f2c349fd866ae7844d50d4af2b2000daa2a740899a4a7a7f8e64",
+  "full_tool_output_bytes": 494817,
+  "quality_related_content_lines": 12,
+  "events": [
+    {
+      "label": "PRE",
+      "callID": "call_b2d2acd909d8453295d04126",
+      "tool": "bash",
+      "input": {
+        "command": "grep -rn \"stage21g-r5-spec-reviewer-001\" --include=\"*.md\" --include=\"*.json\" --include=\"*.txt\" . 2>/dev/null | grep -v \"^./.audit/spec-r5/\" | head -20; echo \"=== exit:$? ===\"",
+        "workdir": "[USER_HOME]\\AppData\\Local\\hermes\\cache\\scratch\\stage21g-inventory-20261106\\project"
+      },
+      "status": "completed",
+      "exit": 0,
+      "error": null,
+      "output_truncated": false
+    },
+    {
+      "label": "SPEC_SOUL_READ",
+      "callID": "call_fb393880836d4e528d07015b",
+      "tool": "read",
+      "input": {
+        "filePath": "[USER_HOME]\\AppData\\Local\\hermes\\cache\\scratch\\stage21g-inventory-20261106\\project\\.audit\\spec-r5\\SOUL.md"
+      },
+      "status": "completed",
+      "exit": null,
+      "error": null,
+      "output_truncated": false
+    },
+    {
+      "label": "SPEC_PRIVATE_AUDIT_SEARCH",
+      "callID": "call_373c037cd38840a18dc74d67",
+      "tool": "bash",
+      "input": {
+        "command": "grep -rIl \"COMPLIANT\" .audit 2>&1; echo \"---snippets---\"; grep -rIn \"PRE:\" .audit 2>&1 | head -40",
+        "workdir": "[USER_HOME]\\AppData\\Local\\hermes\\cache\\scratch\\stage21g-inventory-20261106\\project"
+      },
+      "status": "completed",
+      "exit": 0,
+      "error": null,
+      "output_truncated": true
+    },
+    {
+      "label": "SPEC_RUNID_SEARCH",
+      "callID": "call_d28898e8d8c0452bae2cc320",
+      "tool": "bash",
+      "input": {
+        "command": "grep -rIn \"stage21g-r5-spec-reviewer-001\" --exclude-dir=.git . 2>&1 | cut -c1-200",
+        "workdir": "[USER_HOME]\\AppData\\Local\\hermes\\cache\\scratch\\stage21g-inventory-20261106\\project"
+      },
+      "status": "completed",
+      "exit": 0,
+      "error": null,
+      "output_truncated": false
+    },
+    {
+      "label": "SPEC_REPORT_WRITE",
+      "callID": "call_9ac5aae34ae148afb66e8a5b",
+      "tool": "write",
+      "input": {
+        "filePath": "[USER_HOME]\\AppData\\Local\\hermes\\cache\\scratch\\stage21g-inventory-20261106\\project\\SPEC_REVIEW_REPORT.md"
+      },
+      "status": "completed",
+      "exit": null,
+      "error": null,
+      "output_truncated": false
+    },
+    {
+      "label": "POST_PRIVATE_REPORT_HASH",
+      "callID": "call_f051c5e8b46840e292ba56b2",
+      "tool": "bash",
+      "input": {
+        "command": "cd \"[USER_HOME]\\AppData\\Local\\hermes\\cache\\scratch\\stage21g-inventory-20261106\\project\" && sha256sum QUALITY_REVIEW_REPORT.md && python -c \"\nimport json\nm=json.load(open('.audit/spec-r5/post/META.json'))\nprint('meta report_sha',m['report_sha256'])\nprint('meta head',m['head'])\nprint('pre_record_absent_at_role',m['pre_record_was_not_in_role_workdir_at_time_of_role'])\nprint('role_exit',m['role_exit'],'finish',m['finish_reason'])\n\""
+      },
+      "status": "completed",
+      "exit": 0,
+      "error": null,
+      "output_truncated": false
+    }
+  ]
+}

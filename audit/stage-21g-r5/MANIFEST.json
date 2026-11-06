@@ -1,0 +1,48 @@
+{
+  "scope": "脱敏副本；source_sha256为本机原件，published_sha256为固定commit中公开副本。完整工具输出含私人材料未公开。",
+  "entries": [
+    {
+      "path": "21G-R5-report.md",
+      "source_sha256": "2204c16425e660befe840c0cf70301ae386bf04dc1f75e502632fed8512ca029",
+      "published_sha256": "5f806b382a54da0f8a71111f0e89ae6a7d3546f9797e9df072ae4e0b2a7ae455",
+      "bytes": 7305
+    },
+    {
+      "path": "SPEC_REVIEW_REPORT.md",
+      "source_sha256": "e702195509e8b49e3b2efeab1276bbf4f1ea725115985b4bf955735035a3a08d",
+      "published_sha256": "e702195509e8b49e3b2efeab1276bbf4f1ea725115985b4bf955735035a3a08d",
+      "bytes": 15072
+    },
+    {
+      "path": "SPEC_TASK.md",
+      "source_sha256": "8d1ddfab30b2cff53f34885a4ba42db20a2bbf21c6d3997036350af26e0ec34f",
+      "published_sha256": "8d1ddfab30b2cff53f34885a4ba42db20a2bbf21c6d3997036350af26e0ec34f",
+      "bytes": 3241
+    },
+    {
+      "path": "PRE_FINAL.md",
+      "source_sha256": "dfb50257342ee5f5e7c5d633b736f6d61cfa931bdd39733b20d5dc6809ac1e1f",
+      "published_sha256": "27bb0888541ecde1e892ef957aec0039483aa56231dc916a431b56b4135e6b39",
+      "bytes": 5508
+    },
+    {
+      "path": "POST_FINAL.md",
+      "source_sha256": "bf450aad6e3d695113e18f4fcb56dd059d98e6bd11b8433b0e8c8b30af9cd73f",
+      "published_sha256": "6f9ca62b271fb830260b06066ed437226114a10488f6d7768fa4b1afb6a76fc6",
+      "bytes": 8190
+    },
+    {
+      "path": "POST_PROMPT.md",
+      "source_sha256": "c185f28734d5ce065b14f0ba19012d6fbccd8374ea6e5e5d0b2e5ca938b06f9d",
+      "published_sha256": "c185f28734d5ce065b14f0ba19012d6fbccd8374ea6e5e5d0b2e5ca938b06f9d",
+      "bytes": 2212
+    },
+    {
+      "path": "EVENT_FACTS.json",
+      "source_sha256": null,
+      "published_sha256": "bbed3992380805339e745d0f6bd37a7872815412926150e0ebc619d4566fe739",
+      "bytes": 3570
+    }
+  ],
+  "manifest_self_hash": "excluded"
+}
