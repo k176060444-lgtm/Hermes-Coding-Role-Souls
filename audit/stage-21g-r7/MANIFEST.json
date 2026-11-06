@@ -1,0 +1,56 @@
+{
+  "file_count": 10,
+  "files": [
+    {
+      "path": "21G-R7-report.md",
+      "sha256": "981ee271d5e4b1f911c9b2e682a313a056e3ba307b854dd6b3bf0a95c9a308a4",
+      "bytes": 7358
+    },
+    {
+      "path": "FACTS.redacted.json",
+      "sha256": "e29db8f3a7943ea064add2b39ad1e4e99fb23d2a39261a4c70471c5f059da6e4",
+      "bytes": 9658
+    },
+    {
+      "path": "GATE_A_REPORT.md",
+      "sha256": "0443dc582ab44ed36903c0f6bf864b2e3179945ca046b94c84747f59f3377961",
+      "bytes": 2688
+    },
+    {
+      "path": "POST_ORIGINAL_VERDICT.redacted.md",
+      "sha256": "8ba097d993203e1361c3bacfe8c98b6b84226e46948cfb26b76861ded010f8b0",
+      "bytes": 20430
+    },
+    {
+      "path": "PRE_ORIGINAL_VERDICT.redacted.md",
+      "sha256": "c85155a7ddc544ee91bfca31f739beb7b3283894854b01ae16e388a4320dad38",
+      "bytes": 15750
+    },
+    {
+      "path": "TEST_A_CASES.md",
+      "sha256": "4df918b3c6547f6db54d4f6b34bc2460775e0df3f7fbde0729da6026ad9c3c32",
+      "bytes": 2547
+    },
+    {
+      "path": "TEST_A_EVIDENCE.md",
+      "sha256": "23cf1ae6c83202b83e5036f95a96682e975ef5fa604af36a5ebeeb5763cdb5ba",
+      "bytes": 3988
+    },
+    {
+      "path": "test_gate_a_inventory.py",
+      "sha256": "fbd0abb218b791a9d60999f6b063b14c18f1e4b82df7db8aa5bfb74e82d6c3cb",
+      "bytes": 4416
+    },
+    {
+      "path": "unittest-log.redacted.txt",
+      "sha256": "c9737658f5d7f145e09e24b39f56fa4eb85fb1ad6217cee0000c833c90b21a9a",
+      "bytes": 2240
+    },
+    {
+      "path": "utf8-observation.redacted.txt",
+      "sha256": "4efe314176e3ff8ab79bcb5948c4526085186071914cd19b776781bdb7e314a8",
+      "bytes": 570
+    }
+  ],
+  "redaction": "user home paths redacted; raw UTF-16 logs transcoded to UTF-8; unittest log trailing whitespace removed; original hashes in FACTS; private config and raw events excluded"
+}

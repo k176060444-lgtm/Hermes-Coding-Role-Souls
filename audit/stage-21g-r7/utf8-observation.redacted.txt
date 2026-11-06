@@ -1,0 +1,4 @@
+COMMAND: python inventory.py <tests_gate_a/tmp/.../invalid-utf8.csv>
+RETURN_CODE: 1
+STDOUT_REPR: ''
+STDERR_REPR: 'Traceback (most recent call last):\n  File "<LOCAL_USER_HOME>\\Stage21G-R6\\tester\\inventory.py", line 75, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File "<LOCAL_USER_HOME>\\Stage21G-R6\\tester\\inventory.py", line 27, in main\n    header = next(reader, None)\n             ^^^^^^^^^^^^^^^^^^\n  File "<frozen codecs>", line 322, in decode\nUnicodeDecodeError: \'utf-8\' codec can\'t decode byte 0xff in position 16: invalid start byte\n'

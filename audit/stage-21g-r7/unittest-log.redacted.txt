@@ -1,0 +1,35 @@
+python : test_empty_file_and_blank_record_fail_without_output (test_gate_a_inventory.InventoryGateATests.test_empty_fil
+e_and_blank_record_fail_without_output) ... ok
+所在位置 行:2 字符: 204
++ ... =$env:TEMP; python -m unittest discover -s tests_gate_a -p 'test_*.py ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_empty_file..._output) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+test_empty_sku_fails_without_output (test_gate_a_inventory.InventoryGateATests.test_empty_sku_fails_without_output) ...
+ ok
+test_extra_field_fails_without_output (test_gate_a_inventory.InventoryGateATests.test_extra_field_fails_without_output)
+ ... ok
+test_header_only_is_an_empty_successful_summary (test_gate_a_inventory.InventoryGateATests.test_header_only_is_an_empty
+_successful_summary) ... ok
+test_invalid_integer_fails_without_output (test_gate_a_inventory.InventoryGateATests.test_invalid_integer_fails_without
+_output) ... ok
+test_invalid_utf8_behavior_is_recorded_as_unspecified_observation (test_gate_a_inventory.InventoryGateATests.test_inval
+id_utf8_behavior_is_recorded_as_unspecified_observation) ... ok
+test_late_field_count_error_emits_no_partial_summary (test_gate_a_inventory.InventoryGateATests.test_late_field_count_e
+rror_emits_no_partial_summary) ... ok
+test_late_integer_error_emits_no_partial_summary (test_gate_a_inventory.InventoryGateATests.test_late_integer_error_emi
+ts_no_partial_summary) ... ok
+test_missing_field_fails_without_output (test_gate_a_inventory.InventoryGateATests.test_missing_field_fails_without_out
+put) ... ok
+test_valid_csv_sums_positive_negative_and_zero_and_sorts_skus (test_gate_a_inventory.InventoryGateATests.test_valid_csv
+_sums_positive_negative_and_zero_and_sorts_skus) ... ok
+test_whitespace_around_nonempty_sku_is_preserved (test_gate_a_inventory.InventoryGateATests.test_whitespace_around_none
+mpty_sku_is_preserved) ... ok
+test_whitespace_only_sku_fails_without_output (test_gate_a_inventory.InventoryGateATests.test_whitespace_only_sku_fails
+_without_output) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.175s
+
+OK
