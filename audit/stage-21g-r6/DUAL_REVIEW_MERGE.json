@@ -1,0 +1,31 @@
+{
+  "classification": "TEST_ONLY 同Commit独立双审汇合；两位审查员不在本轮同时执行，非生产批准",
+  "head": "a1d4a578f9334bfcda8004d25a4a43dfef7ebf13",
+  "task_spec_sha256": "dafc4a314bfb69c887929a3df12f6f76dee45d8686902659fc514352afe8258c",
+  "freeze_sha256": "bb1fe989ef24ff0b6b7a4d202ad24ea6ea01dedfc09e147133f15dde184ce63c",
+  "spec": {
+    "run_id": "stage21g-r6-spec-reviewer-001",
+    "report_path": ".audit/tester-a-r6/SPEC_REVIEW_REPORT.md",
+    "report_sha256": "6a0daabd9458b870eb3c58722b6f7e48ccb7ff28f884acd094dd20483a058aa3",
+    "verdict": "APPROVE_WITH_COMMENTS",
+    "pre": "COMPLIANT",
+    "post": "COMPLIANT",
+    "pre_event_sha256": "7fdc2b805c50aa4fbcff5fce0d7d7878ecb84c4c044fe5d3df3f995d07920f74",
+    "post_event_sha256": "8e6da759dc2a8f8a5c4b967a991f3cf924e66925466b42c3627e09fe231c037e",
+    "role_event_sha256": "282402d9b20345e785ca899eb136228dc4dc6beafd21b855e584b52a31498f74"
+  },
+  "quality": {
+    "run_id": "stage21g-r3-quality-reviewer-001",
+    "report_path": ".audit/tester-a-r6/QUALITY_REVIEW_REPORT.md",
+    "report_sha256": "e26408f0a6a2cb22b9cb71caab812ebc2e784637fa1e5db39d1f0ae9ce81fd7d",
+    "verdict": "APPROVE_WITH_COMMENTS",
+    "pre": "COMPLIANT",
+    "post": "COMPLIANT",
+    "pre_event_sha256": "1e2cec5d912870fb05a24db5a823285aa8a249d6a35d3789a1afb94e8c13b779",
+    "post_event_sha256": "ade58188fb8d0bed05b1e0d2f517fc0dce5848bbdf41f38dc8f9fd6ecd76b34e",
+    "role_event_sha256": "c0daf93959c09fd78a6b087743808e52c3bc362a3026711cfba9b61c591d1c17"
+  },
+  "independence": "Spec R6干净worktree及原始工具事件无Quality读取；Quality R4原始命令与POST记录无Spec R6结果读取；仅为现有可得事件范围内核验。",
+  "known_observation": "Quality对无效UTF-8诊断的OPTIONAL为静态推断，非已复现缺陷。",
+  "observed_model": "UNVERIFIED"
+}

@@ -1,0 +1,74 @@
+{
+  "role": "stage21g-r6-tester-a-001",
+  "thread_ids": [
+    "01a1af54-83c2-72b0-bf39-4beba341e328"
+  ],
+  "role_exit": 1,
+  "turn_failed": true,
+  "turn_completed": false,
+  "events": [
+    {
+      "type": "thread.started",
+      "thread_id": "01a1af54-83c2-72b0-bf39-4beba341e328"
+    },
+    {
+      "type": "turn.started"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 2/5 (workspace routing discovery timed out)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 3/5 (workspace routing discovery failed)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 4/5 (workspace routing discovery failed)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 5/5 (workspace routing discovery failed)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (workspace routing discovery failed)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 2/5 (workspace routing discovery failed)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 3/5 (workspace routing discovery timed out)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 4/5 (workspace routing discovery failed)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 5/5 (workspace routing discovery failed)"
+    },
+    {
+      "type": "error",
+      "message": "workspace routing discovery failed"
+    },
+    {
+      "type": "turn.failed",
+      "error": {
+        "message": "workspace routing discovery failed"
+      }
+    }
+  ],
+  "command_execution_count": 0,
+  "file_change_count": 0,
+  "observed_test_status": "NOT_RUN",
+  "role_stdout_sha256": "5a771bfd8af2404cbb739fbaaaee5ab52457cd19c5f4a5a19405c9f4edb12f9c",
+  "role_stderr_sha256": "c440dae509d2159758bc7dc6e04c159de798a85f10b660162102e762c58eb51a",
+  "proxy_disclosure": "调度端未传前次成功调用使用的18888代理参数，实际继承20172；代理差异与错误的因果关系UNVERIFIED。",
+  "config_cleanup": {
+    "before_sha256": "28ef096584cdb51edee96c8a8182afadc5774bbcfc8b16813ac6532406657944",
+    "after_cleanup_sha256": "28ef096584cdb51edee96c8a8182afadc5774bbcfc8b16813ac6532406657944"
+  }
+}

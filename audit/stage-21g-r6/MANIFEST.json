@@ -1,0 +1,66 @@
+{
+  "scope": "脱敏公开副本，source_sha256对应本机原件，published_sha256对应公开文件。原始事件与配置备份保留本机。",
+  "entries": [
+    {
+      "path": "21G-R6-report.md",
+      "source_sha256": "abc328bf2546ce20f14c91993c901d6ebd09fd28ba0bb1e0d673c2d901e75240",
+      "published_sha256": "7fc2b60a480978ffb8a1b2cc71272dcdbcf07c16a21e62081968575394c2fce1",
+      "bytes": 6957
+    },
+    {
+      "path": "SPEC_REVIEW_REPORT.md",
+      "source_sha256": "6a0daabd9458b870eb3c58722b6f7e48ccb7ff28f884acd094dd20483a058aa3",
+      "published_sha256": "0f252e33caa91cb01483a6c2e1fbece8b233347cd22024469d813e282b3cb77c",
+      "bytes": 17404
+    },
+    {
+      "path": "SPEC_PRE_FINAL.md",
+      "source_sha256": "f92f093794e0a145145da7b1c07b6c8207eed9511b67a5e64017085a197b7717",
+      "published_sha256": "f92f093794e0a145145da7b1c07b6c8207eed9511b67a5e64017085a197b7717",
+      "bytes": 3887
+    },
+    {
+      "path": "SPEC_POST_FINAL.md",
+      "source_sha256": "28c074cfab9bf7222ec3464eb916b17f53fb148f566505999e7dd18de5206ed5",
+      "published_sha256": "2e4818e7be379f6fc6da91b8491bf85e49f58a57a06ca44851de1e070f0ba3ca",
+      "bytes": 8162
+    },
+    {
+      "path": "TESTER_PRE_FINAL.md",
+      "source_sha256": "fe6ebd26ab325875293858074600dddec088529c3fd9586e105523ae3a589f38",
+      "published_sha256": "3754a95c2de1c3dc7041c171e8e739f165c56300791e76301de5fbe8b87a1ae3",
+      "bytes": 13096
+    },
+    {
+      "path": "TESTER_POST_FINAL.md",
+      "source_sha256": "b0637ca09bfdf814f2432babb13dbfce65ce762ed67c6f1842be531a082e9f6d",
+      "published_sha256": "66659523e3ff164465d41e78d7588b5ac116690487e7005d8dd58496cff06a64",
+      "bytes": 11598
+    },
+    {
+      "path": "DUAL_REVIEW_MERGE.json",
+      "source_sha256": "4216ed10566b02b52822596437c433f07753913085ce46b877cd601ea3c660fc",
+      "published_sha256": "4216ed10566b02b52822596437c433f07753913085ce46b877cd601ea3c660fc",
+      "bytes": 1851
+    },
+    {
+      "path": "SPEC_TASK.md",
+      "source_sha256": "f976622ca24d56b1b804705a1e88eedd8adb13ea7d6c119a234800a0d83e4bec",
+      "published_sha256": "f976622ca24d56b1b804705a1e88eedd8adb13ea7d6c119a234800a0d83e4bec",
+      "bytes": 2446
+    },
+    {
+      "path": "TESTER_TASK.md",
+      "source_sha256": "e9d9b307eb3faa3776054ddd7539d69a5771ccba2891fb6b7b74f757b2d85e2b",
+      "published_sha256": "e9d9b307eb3faa3776054ddd7539d69a5771ccba2891fb6b7b74f757b2d85e2b",
+      "bytes": 3077
+    },
+    {
+      "path": "TESTER_FAILURE_FACTS.json",
+      "source_sha256": null,
+      "published_sha256": "fef1bf5a70e214afa5eb2171cfe9dedc6c7376f4c18f06d212b68afd7c3e1371",
+      "bytes": 2212
+    }
+  ],
+  "manifest_self_hash": "excluded"
+}
