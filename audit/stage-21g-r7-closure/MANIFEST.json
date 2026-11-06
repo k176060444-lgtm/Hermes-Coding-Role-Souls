@@ -1,0 +1,21 @@
+{
+  "file_count": 3,
+  "files": [
+    {
+      "path": "21G-R7-closure-report.md",
+      "sha256": "fe83adcecbf981be0dd4f3ae33801299cdc161ff60a108b1a3ed6a0c1975df43",
+      "bytes": 5303
+    },
+    {
+      "path": "POST_PROMPT_VERBATIM.redacted.md",
+      "sha256": "c5c3f4514e958db26e77e2a435c94fb23732511f2644b20eda2e4838e213be4f",
+      "bytes": 2904
+    },
+    {
+      "path": "STOP_RULE_FACTS.json",
+      "sha256": "4cc1396a7b916dd8ae05f7e5d47eaf8950607e0145fe3cf5ab61b834995d6e35",
+      "bytes": 2779
+    }
+  ],
+  "redaction": "local user home replaced; POST prompt otherwise verbatim; raw events and private backups excluded"
+}

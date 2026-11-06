@@ -1,0 +1,92 @@
+{
+  "scope": "Stage 21G-R7 closure; no model calls in this session; original verdicts preserved",
+  "fixed_report_commit": "4c8ff2f9dd7ae2b3b1285fe7ea980962dcf0e4c5",
+  "verdicts": {
+    "tester_technical": "GATE_A_PASS",
+    "pre_original": "COMPLIANT",
+    "post_original": "COMPLIANT",
+    "dispatcher_stop_discipline": "FAIL",
+    "r7_overall_workflow": "NOT_COMPLIANT"
+  },
+  "post_prompt": {
+    "sha256": "5c68c6f3f245e48423a6431a613af23181cfbd37587bb377a9ac7fea68630ac7",
+    "routing_stop_rule_present": false,
+    "keyword_hits": {
+      "workspace routing": [],
+      "Reconnecting": [],
+      "停线": [],
+      "停止，不自动重派": [],
+      "不自动重派": []
+    }
+  },
+  "authorization": {
+    "sha256": "2afbb2afd6758f9656fae1022310d9d051221803c5f2eb05999c4c2b9706f422",
+    "stop_rule_lines": [
+      207,
+      209
+    ],
+    "read_by_post_call_id": "call_02_1cIXQx0KglyCdlSbYNzA0579"
+  },
+  "responsibility": {
+    "dispatcher_omission_established": true,
+    "auditor_misjudgment_established": false,
+    "basis": "文件grep与POST事件流；审计员按受领派发书分类OBSERVATION且保留错误原文"
+  },
+  "codex_timeline": {
+    "thread_id": "01a1afa4-6686-7873-91f9-e2253f8f3cec",
+    "json_event_count": 58,
+    "thread_started": 1,
+    "turn_started": 1,
+    "turn_completed": 1,
+    "turn_failed": 0,
+    "error_events": [
+      {
+        "index": 2,
+        "text": "Reconnecting... 2/5 (workspace routing discovery failed)"
+      }
+    ],
+    "item_error_events": 0,
+    "first_command_index": 4,
+    "completed_commands": 13,
+    "command_exit_codes": {
+      "item_1": 0,
+      "item_10": 0,
+      "item_13": 0,
+      "item_15": 0,
+      "item_17": 0,
+      "item_23": 0,
+      "item_26": 0,
+      "item_29": 1,
+      "item_31": 0,
+      "item_36": 0,
+      "item_4": 0,
+      "item_6": 0,
+      "item_8": 0
+    },
+    "unittest_item": "item_23",
+    "unittest_process_exit": 0,
+    "unittest_log": "Ran 12 tests / OK",
+    "probe_item": "item_26",
+    "read_only_log_check_failed_item": "item_29",
+    "role_outer_exit": 0,
+    "redispatch_by_scheduler": false,
+    "model_switch": false,
+    "requested_model": "group/gpt-6-luna",
+    "observed_model": "UNVERIFIED",
+    "stderr_mcp_errors": 3
+  },
+  "future_rule_draft": {
+    "status": "PENDING_KK_APPROVAL; not retroactive to R7",
+    "tiers": {
+      "temporary_reconnecting_recovered_same_turn": "WARN with full trail",
+      "turn_failed_or_reconnect_exhausted": "STOP",
+      "missing_deliverables_or_real_overreach_or_key_fact_contradiction": "STOP/FAIL",
+      "dispatcher_requirement": "real-time error-event watch, no post-hoc substitution"
+    }
+  },
+  "protection": {
+    "protected_files": "13/13",
+    "local_archive": "46/46",
+    "new_model_calls": 0
+  }
+}
