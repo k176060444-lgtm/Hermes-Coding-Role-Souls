@@ -1,0 +1,42 @@
+{
+  "scope": "脱敏交付副本；原始文件保留本机。SOURCE_FILE_INDEX.json哈希对应本机原件，published_sha256对应公开副本。",
+  "entries": [
+    {
+      "path": "21G-R4-dispatch-audit-report.md",
+      "published_sha256": "f22e55cce32bde3ff17178b0dbe49b1cdba1bad8becfb47bb1eb35b0d0fbe58f",
+      "source_original_sha256": "8f7a5bca11c9fb874a7885c85d7b509601f71db373da87ecf549222bfde883d6",
+      "bytes": 6161
+    },
+    {
+      "path": "PRO_AUDIT_DRAFT.md",
+      "published_sha256": "6d8d1457daf0f750f46428beed754ed33086b196c47fc32e8641cb76e0bbfcd3",
+      "source_original_sha256": "6d8d1457daf0f750f46428beed754ed33086b196c47fc32e8641cb76e0bbfcd3",
+      "bytes": 1967
+    },
+    {
+      "path": "SPEC_TASK_DRAFT.md",
+      "published_sha256": "d9790c0701398a853c10ef91c7a572d0e35db7cddeb76c031d16d1dc069865c0",
+      "source_original_sha256": "d9790c0701398a853c10ef91c7a572d0e35db7cddeb76c031d16d1dc069865c0",
+      "bytes": 2956
+    },
+    {
+      "path": "TOOL_FACTS.json",
+      "published_sha256": "60bb21f9697fbb5f6f36ff1a2c89499d2b5e8dfa983e8c4512328c7b773eca48",
+      "source_original_sha256": "ab4819e65fe47c2c0d784bf0b3292a750210308d2f384e49a68e98b07bcf32f2",
+      "bytes": 10897
+    },
+    {
+      "path": "VALIDATION.json",
+      "published_sha256": "3e793c2a14dd6ed0e9bb3e35e3ebfc54655a1ca44e3bd1fa9606704c2f28700a",
+      "source_original_sha256": "3e793c2a14dd6ed0e9bb3e35e3ebfc54655a1ca44e3bd1fa9606704c2f28700a",
+      "bytes": 1395
+    },
+    {
+      "path": "SOURCE_FILE_INDEX.json",
+      "published_sha256": "f6b1b95efed7017eacc186b895859192b7bbdc90775fb6b20b5e31bb26378fe0",
+      "source_original_sha256": "69c562c87effb3c60253dcab77f801f89564d0024999272574b1ac2b643abc40",
+      "bytes": 470
+    }
+  ],
+  "manifest_self_hash": "excluded"
+}
