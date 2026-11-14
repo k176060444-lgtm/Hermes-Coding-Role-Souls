@@ -1,0 +1,4 @@
+# Every file in SHA256SUMS.txt is verified against its exact Git blob bytes on
+# any platform. Pin LF checkout so Windows hosts with core.autocrlf=true do not
+# produce CRLF worktree bytes that would fail the canonical digest checks (F-03).
+* text=auto eol=lf
