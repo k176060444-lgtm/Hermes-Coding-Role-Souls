@@ -24,7 +24,8 @@ const sums=new Map(fs.readFileSync(path.join(root,'SHA256SUMS.txt'),'utf8').trim
  return [m[2],m[1]];
 }));
 for(const [file,hash] of sums){
- assert.equal(createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex'),hash,file);
+ assert.equal(createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex'),hash,file+
+  ': worktree bytes diverge from the recorded blob digest. If you checked this branch out inside a clone that was first materialized on the default branch with core.autocrlf=true, stale CRLF bytes remain in files this branch did not touch; run `git checkout -f HEAD -- .` so the pinned `.gitattributes` re-materializes the exact recorded bytes, then re-run.');
 }
 assert(!fs.readFileSync(path.join(root,'souls/arbitrator.md'),'utf8').includes('无争议也不得跳过'));
 console.log('SOUL_SOURCE_STATIC_PASS: nine roles, SHA manifest, final JSON contract');
