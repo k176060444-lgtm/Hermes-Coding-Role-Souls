@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "package_version": "1.1.3",
+  "package_version": "1.2.0",
   "p1_source_repository": "k176060444-lgtm/hermes-agent",
   "p1_source_commit_sha": "38c76de3f7e8b47951b01d430806fffe10fe1cdc",
   "execution_host": "21bao",
@@ -17,63 +17,83 @@
       "phase": "0.2",
       "permission_intent": "read_only",
       "installed_name": "p1-planner",
-      "soul_file": "souls/planner.md"
+      "soul_file": "souls/planner.md",
+      "soul_version": "2.3.0",
+      "soul_sha256": "bd9aaf338253f38dd0b541c9283045ce480c61aeade9d5fdda9a581c68657138"
     },
     "worker": {
       "harness": "opencode",
       "phase": "2",
       "permission_intent": "workspace_write",
       "installed_name": "p1-worker",
-      "soul_file": "souls/worker.md"
+      "soul_file": "souls/worker.md",
+      "soul_version": "1.2.0",
+      "soul_sha256": "ea8564160c24db365b49f6474214192d2158572fed94e23aa5757f424a825960"
     },
     "spec_reviewer": {
       "harness": "opencode",
       "phase": "3",
       "permission_intent": "read_only",
       "installed_name": "p1-spec-reviewer",
-      "soul_file": "souls/spec_reviewer.md"
+      "soul_file": "souls/spec_reviewer.md",
+      "soul_version": "1.2.0",
+      "soul_sha256": "81f3d7410ea707d23bc57a79560760616b3eba3454ebee83c5b8389be330d6fe"
     },
     "quality_reviewer": {
       "harness": "codex",
       "phase": "4",
       "permission_intent": "read_only",
       "installed_name": "p1-quality-reviewer",
-      "soul_file": "souls/quality_reviewer.md"
+      "soul_file": "souls/quality_reviewer.md",
+      "soul_version": "1.2.0",
+      "soul_sha256": "0229356c781a91568ebf90cfab566815494c427bfe6cbdcc0b770017f9182d6e"
     },
     "tester_gate_a": {
       "harness": "codex",
       "phase": "4.5",
       "permission_intent": "test_files_only",
       "installed_name": "p1-tester-gate-a",
-      "soul_file": "souls/tester_gate_a.md"
+      "soul_file": "souls/tester_gate_a.md",
+      "soul_version": "1.2.0",
+      "soul_sha256": "3296b87ef7fdcb172a558ee3ca4247b830f479ba75a96e3932674139bd686fe2"
     },
     "worker_remediation": {
       "harness": "opencode",
       "phase": "5.1",
       "permission_intent": "workspace_write",
       "installed_name": "p1-worker-remediation",
-      "soul_file": "souls/worker_remediation.md"
+      "soul_file": "souls/worker_remediation.md",
+      "soul_version": "1.2.0",
+      "soul_sha256": "a418a8f46a2a10399b494c0e6f47696905db77233b09998a5371717e50f9871a"
     },
     "tester_gate_b": {
       "harness": "opencode",
       "phase": "5.2",
       "permission_intent": "test_files_only",
       "installed_name": "p1-tester-gate-b",
-      "soul_file": "souls/tester_gate_b.md"
+      "soul_file": "souls/tester_gate_b.md",
+      "soul_version": "1.2.0",
+      "soul_sha256": "35231b0ee4db45b409e7d0e063498292d3f653d426e3c3f17939d932d2334f5d"
     },
     "arbitrator": {
       "harness": "codex",
       "phase": "5.3",
       "permission_intent": "read_only",
       "installed_name": "p1-arbitrator",
-      "soul_file": "souls/arbitrator.md"
+      "soul_file": "souls/arbitrator.md",
+      "soul_version": "2.3.0",
+      "soul_sha256": "511595f29215207507f971dd454420eba7a7200ac8458f70d49f86a6a8d11ec8"
     },
     "pro_audit": {
       "harness": "opencode",
       "phase": "every_stage",
       "permission_intent": "read_only",
       "installed_name": "p1-pro-audit",
-      "soul_file": "souls/pro_audit.md"
+      "soul_file": "souls/pro_audit.md",
+      "soul_version": "2.3.0",
+      "soul_sha256": "6cb5462b40cde16a48a0027dd15e78df3dd7e5267c7ee2e6d488190105996423"
     }
-  }
+  },
+  "source_of_truth": "Hermes-Coding-Role-Souls (9 local roles); workflow owns 3 external P0 Souls",
+  "immutable_source_base_commit": "f0ecc4895c8947af164ff40ce1f2b29f52947b07"
 }
