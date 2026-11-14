@@ -28,6 +28,12 @@ missing_evidence: []
 - `hash`: 有条件则记录实际 SHA256；绝不生成无来源假值。
 - `confidence`: VERIFIED / UNVERIFIED / NOT_RUN。
 
+## Controller 最终机器回执（优先于历史专业判决词）
+
+每次角色调用均须以**唯一、末尾独立 JSON 对象**结束，必须包含 `verdict`、非空 `summary`、字符串数组 `findings`。`verdict` 只能是 `PASS`、`FAIL`、`QUESTION`、`NEEDS_SPECIALIST` 或 `APPROVE_WITH_COMMENTS`。`PASS` 的 `findings` 必须为空；仅 `LOW:`、`MEDIUM:`、`INFO:`、`ADVISORY:` 允许用作 `APPROVE_WITH_COMMENTS` 的非阻断意见。`BLOCKER:`/`HIGH:` 必须阻断。Planner 在候选阶段还须输出 `taskSpec` 和 `userAlignment`，获批后详细规划则输出 `taskSpec`。专业报告不得伪造签名、证据或运行身份。
+
+本节为**新任务 Controller JSON 机器回执**要求；下方历史 `APPROVE`、`GATE_A_PASS`、`COMPLIANT` 等词仅描述专业文档判决，不可直接用作新任务最后一个 JSON `verdict` 值。
+
 ## Review判决
 
 Spec/Quality: APPROVE / APPROVE_WITH_COMMENTS / REQUEST_CHANGES / NEEDS_SPECIALIST；疑义使用 QUESTION。
