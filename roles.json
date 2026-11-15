@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "package_version": "1.2.0",
+  "package_version": "1.3.0",
   "p1_source_repository": "k176060444-lgtm/hermes-agent",
   "p1_source_commit_sha": "38c76de3f7e8b47951b01d430806fffe10fe1cdc",
   "execution_host": "21bao",
@@ -63,8 +63,8 @@
       "permission_intent": "workspace_write",
       "installed_name": "p1-worker-remediation",
       "soul_file": "souls/worker_remediation.md",
-      "soul_version": "1.2.0",
-      "soul_sha256": "a418a8f46a2a10399b494c0e6f47696905db77233b09998a5371717e50f9871a"
+      "soul_version": "1.2.1",
+      "soul_sha256": "4adeca71c6a2414b253c076761cf0f00b4cb8681ccb32cecabc23882c6acc5bb"
     },
     "tester_gate_b": {
       "harness": "opencode",
@@ -81,8 +81,8 @@
       "permission_intent": "read_only",
       "installed_name": "p1-arbitrator",
       "soul_file": "souls/arbitrator.md",
-      "soul_version": "2.3.0",
-      "soul_sha256": "511595f29215207507f971dd454420eba7a7200ac8458f70d49f86a6a8d11ec8"
+      "soul_version": "2.4.0",
+      "soul_sha256": "46d56b7c37e182b20ca629b120ffc4c6391ba810a027077869744afbfe3f7a67"
     },
     "pro_audit": {
       "harness": "opencode",
@@ -90,8 +90,8 @@
       "permission_intent": "read_only",
       "installed_name": "p1-pro-audit",
       "soul_file": "souls/pro_audit.md",
-      "soul_version": "2.3.0",
-      "soul_sha256": "6cb5462b40cde16a48a0027dd15e78df3dd7e5267c7ee2e6d488190105996423"
+      "soul_version": "2.4.0",
+      "soul_sha256": "46771d17941746aa69d2e9f106a0cf2a71bfe433611bae0449eabadb9d90355c"
     }
   },
   "source_of_truth": "Hermes-Coding-Role-Souls (9 local roles); workflow owns 3 external P0 Souls",
